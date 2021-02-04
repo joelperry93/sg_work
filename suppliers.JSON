@@ -1,0 +1,234 @@
+{
+        "roma": {
+            "file_path": "ROMA PRICELIST.pdf",
+            "first_page": 1,
+            "last_page": 46,
+            "frame": "Moulding",
+            "price": "Length Price",
+            "header": 0,
+            "method": "pdf"
+             },
+
+        "universal": {
+            "file_path": "2019 Universal Price List.pdf",
+            "first_page": 5,
+            "last_page": 33,
+            "frame": "Item",
+            "price": "List",
+            "header": 1,
+            "method": "universal"
+            },
+
+        "omega": {"file_path": "2019-20_ Omega Moulding_Price_List_USA.pdf",
+            "first_page": 2,
+            "last_page": 17,
+            "frame": "Style",
+            "price": "Bundle",
+            "frame1": "Style.1",
+            "price1": "Bundle.1",
+            "header": 0,
+            "method": "omega"
+            },
+
+        "bella": {
+            "file_path": "2020 Bella Moulding Fax-Email Pricelist.pdf",
+            "first_page": 1,
+            "last_page": 33,
+            "frame": "Item #",
+            "price": "Length",
+            "header": 0,
+            "method": "pdf"
+             },
+    
+        "global metal": {
+                "file_path": "Global/Metal Pricing Global Art - Spring 2019.pdf",
+                "first_page": 1,
+                "last_page": 6,
+                "frame": 0,
+                "price": 4,
+                "header": 0,
+                "method": "global"
+                 },
+    
+        "global wood": {
+                    "file_path": "Global/Wood Pricing Global Art - 9-12-2019.pdf",
+                    "first_page": 1,
+                    "last_page": 6,
+                    "frame": 0,
+                    "price": 4,
+                    "header": 0,
+                    "method": "global"
+                     },
+
+        "picture_woods": {
+                "file_path": "2020 Picture Woods Price List_Framing Software Vendors-Rev.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 2,
+                "method": "excel"
+                },
+                 
+        "frametastic": {
+                "file_path": "Frametastic Moulding Price List.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 5,
+                "method": "excel"
+                },
+                       
+        "studio": {
+               "file_path": "STUDIO PRICE LIST MARCH 16 2020 EXCEL.xlsx",
+                "header": 1,
+                "frame": 0,
+                "price": 1,
+                "method": "excel"
+                },
+                       
+        "presto": {
+                "file_path": "Presto moulding pl download 1 15 21.xls",
+                "header": 0,
+                "frame": 0,
+                "price": 2,
+                "method": "excel"
+                },
+                       
+        "fotiou": {
+                "file_path": "FotiouUSD-PricingUpdate-Jan20.xlsx",
+                "header": 0,
+                "frame": 0,
+               "price": 5,
+               "method": "excel"
+                },
+    
+        "decor": {
+              "file_path": "Decor Moulding 2021 Price List.xlsx",
+              "header": 0,
+              "frame": 0,
+              "price": 4,
+              "method": "excel"
+                },
+    
+        "nurre_caxton": {
+                "file_path": "Nielson Nurre Caxton/2020 January NURRE CAXTON PricelistNBP.xlsx",
+                "header": 2,
+                "frame": 0,
+                "price": 6,
+                "method": "excel"
+                },
+
+        "nielsen": {
+                "file_path": "Nielson Nurre Caxton/2020 Nielsen Excel Price.xlsx",
+                "header": 2,
+                "frame": 0,
+                "price": 4,
+                "method": "excel"
+                },
+
+        "southwest": {
+                "file_path": "SWM PRICELIST 2021.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 6,
+                "method": "excel"
+                },
+
+        "larson juhl": {
+                "file_path": "LJ Pricing CA - Excel.xls",
+                "header": 0,
+                "frame": 0,
+                "price": 5,
+                "method": "excel"
+                },
+
+        "ampf": {
+                "file_path": "ampf_mldg_price_list.pdf",
+                "first_page": 3,
+                "last_page": 15,
+                "frame": "ITEM",
+                "price": "LENGTH",
+                "frame1": "ITEM.1",
+                "price1": "LENGTH.1",
+                "header": 0,
+                "method": "ampf"
+                },            
+
+        "direct": {
+                "file_path": "2020 Direct.xlsx",
+                "header": 2,
+                "frame": 0,
+                "price": 2,
+                "method": "excel"
+                },
+
+        "fpf": {
+                "file_path": "FPF/FPF_manual.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 1,
+                "method": "excel"
+                },
+
+        "rustic": {
+                "file_path": "Rustic_manual.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 1,
+                "method": "excel" 
+                },
+
+        "foster": {
+                "file_path": "Foster_wholesalepricelist_2018.pdf",
+                "first_page": 1,
+                "last_page": 3,
+                "frame": "Number",
+                "price": "Cut",
+                "frame1": "Number.1",
+                "price1": "Cut.1",
+                "frame2": "Number.2",
+                "price2": "Cut.2",
+                "header": 1,
+                "method": "foster"
+                },
+
+        "gryphon": {
+                "file_path": "Gryphon/gryphon price list.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 1,
+                "method": "excel" 
+                },
+
+        "designer wood": {
+                "file_path": "Designer/designer wood.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 1,
+                "method": "excel" 
+                },
+
+        "designer metal": {
+                "file_path": "Designer/designer metal.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 1,
+                "method": "excel"
+                },
+
+        "valley": {
+                "file_path": "valley moulding price list 2-2021.xlsx",
+                "header": 6,
+                "frame": 0,
+                "price": 5,
+                "method": "excel"    
+                },
+
+        "engelsen": {
+                "file_path": "Engelsen/engelsen price list.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 1,
+                "method": "excel"    
+                }
+    
+
+}

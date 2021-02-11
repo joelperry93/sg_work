@@ -6,7 +6,10 @@
             "frame": "Moulding",
             "price": "Length Price",
             "header": 0,
-            "method": "pdf"
+            "method": "pdf",
+            "weight": 0.6,
+            "constant": 1.85
+
              },
 
         "universal": {
@@ -16,7 +19,9 @@
             "frame": "Item",
             "price": "List",
             "header": 1,
-            "method": "universal"
+            "method": "universal",
+            "weight": 0.42,
+            "constant": 1.85
             },
 
         "omega": {"file_path": "2019-20_ Omega Moulding_Price_List_USA.pdf",
@@ -27,7 +32,9 @@
             "frame1": "Style.1",
             "price1": "Bundle.1",
             "header": 0,
-            "method": "omega"
+            "method": "omega",
+            "weight": 0.8,
+            "constant": 1.85
             },
 
         "bella": {
@@ -37,7 +44,9 @@
             "frame": "Item #",
             "price": "Length",
             "header": 0,
-            "method": "pdf"
+            "method": "pdf",
+            "weight": 0.83,
+            "constant": 2.3
              },
     
         "global metal": {
@@ -47,7 +56,9 @@
                 "frame": 0,
                 "price": 4,
                 "header": 0,
-                "method": "global"
+                "method": "global",
+                "weight": 1,
+                "constant": 0                
                  },
     
         "global wood": {
@@ -57,7 +68,9 @@
                     "frame": 0,
                     "price": 4,
                     "header": 0,
-                    "method": "global"
+                    "method": "global",
+                    "weight": 1,
+                    "constant": 0  
                      },
 
         "picture_woods": {
@@ -65,7 +78,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 2,
-                "method": "excel"
+                "method": "excel",
+                "weight": 0.83,
+                "constant": 2.3
                 },
                  
         "frametastic": {
@@ -73,7 +88,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 5,
-                "method": "excel"
+                "method": "excel",
+                "weight": 1,
+                "constant": 0
                 },
                        
         "studio": {
@@ -81,7 +98,9 @@
                 "header": 1,
                 "frame": 0,
                 "price": 1,
-                "method": "excel"
+                "method": "excel",
+                "weight": 0.6,
+                "constant": 1.85
                 },
                        
         "presto": {
@@ -89,7 +108,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 2,
-                "method": "excel"
+                "method": "excel",
+                "weight": 1,
+                "constant": 0
                 },
                        
         "fotiou": {
@@ -97,7 +118,9 @@
                 "header": 0,
                 "frame": 0,
                "price": 5,
-               "method": "excel"
+               "method": "excel",
+               "weight": 0.67,
+               "constant": 2
                 },
     
         "decor": {
@@ -105,7 +128,9 @@
               "header": 0,
               "frame": 0,
               "price": 4,
-              "method": "excel"
+              "method": "excel",
+              "weight": 1,
+              "constant": 0
                 },
     
         "nurre_caxton": {
@@ -121,7 +146,9 @@
                 "header": 2,
                 "frame": 0,
                 "price": 4,
-                "method": "excel"
+                "method": "excel",
+                "weight": 0.8,
+                "constant": 1.5
                 },
 
         "southwest": {
@@ -129,7 +156,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 6,
-                "method": "excel"
+                "method": "excel",
+                "weight": 0.93,
+                "constant": 1.85
                 },
 
         "larson juhl": {
@@ -137,7 +166,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 5,
-                "method": "excel"
+                "method": "excel",
+                "weight": 0.67,
+                "constant": 1.85
                 },
 
         "ampf": {
@@ -149,7 +180,9 @@
                 "frame1": "ITEM.1",
                 "price1": "LENGTH.1",
                 "header": 0,
-                "method": "ampf"
+                "method": "ampf",
+                "weight": 0.67,
+                "constant": 2.3
                 },            
 
         "direct": {
@@ -157,7 +190,9 @@
                 "header": 2,
                 "frame": 0,
                 "price": 2,
-                "method": "excel"
+                "method": "excel",
+                "weight": 0.6,
+                "constant": 2
                 },
 
         "fpf": {
@@ -165,7 +200,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 1,
-                "method": "excel"
+                "method": "excel",
+                "weight": 1,
+                "constant": 0
                 },
 
         "rustic": {
@@ -173,7 +210,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 1,
-                "method": "excel" 
+                "method": "excel",
+                "weight": 0.83,
+                "constant": 2.3
                 },
 
         "foster": {
@@ -187,7 +226,9 @@
                 "frame2": "Number.2",
                 "price2": "Cut.2",
                 "header": 1,
-                "method": "foster"
+                "method": "foster",
+                "weight": 0.6,
+                "constant": 1.85
                 },
 
         "gryphon": {
@@ -195,7 +236,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 1,
-                "method": "excel" 
+                "method": "excel",
+                "weight": 0.6,
+                "constant": 1.85
                 },
 
         "designer wood": {
@@ -203,7 +246,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 1,
-                "method": "excel" 
+                "method": "excel",
+                "weight": 0.83,
+                "constant": 2.3
                 },
 
         "designer metal": {
@@ -211,7 +256,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 1,
-                "method": "excel"
+                "method": "excel",
+                "weight": 0.6,
+                "constant": 1.4
                 },
 
         "valley": {
@@ -219,7 +266,9 @@
                 "header": 6,
                 "frame": 0,
                 "price": 5,
-                "method": "excel"    
+                "method": "excel",
+                "weight": 0.67,
+                "constant": 1.85   
                 },
 
         "engelsen": {
@@ -227,7 +276,9 @@
                 "header": 0,
                 "frame": 0,
                 "price": 1,
-                "method": "excel"    
+                "method": "excel",
+                "weight": 0.83,
+                "constant": 2.3
                 }
     
 

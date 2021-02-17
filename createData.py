@@ -23,6 +23,8 @@ def createMaster(supplier_list):
             df.append(ampfSpecific(i))
         elif supplier_dict[i]['method'] == 'foster':
             df.append(fosterSpecific(i))
+        elif supplier_dict[i]['method'] == 'bella':
+            df.append(bellaSpecific(i))
     df = pd.concat(df)
     return df
 
@@ -71,6 +73,7 @@ def finalDataset(supplier_list):
     df = df.dropna()
     df['frame'] = df['frame'].apply(lambda x: cleanFramePipeline(x))
 
+    df = df.drop_duplicates(subset=['frame', 'supplier'])
     # return df.to_excel('master_list.xlsx', index=False)
     return df.to_csv('master_list.csv', index=False)
 

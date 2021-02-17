@@ -1406,7 +1406,7 @@ frame,price,supplier
 80091069,8.26,roma
 010-486-001,3.1,universal
 015-100-001,1.82,universal
-015-167-001,1.66,universal
+015-167-001,1.6600000000000001,universal
 015-282-001,1.44,universal
 015-383-001,1.44,universal
 015-483-001,1.82,universal
@@ -1418,11 +1418,11 @@ frame,price,supplier
 016-302-486,3.36,universal
 016-302-487,3.36,universal
 016-304-480,3.18,universal
-016-307-4 79,3.0,universal
+016-307-479,3.0,universal
 020-100-001,1.96,universal
 020-167-001,1.82,universal
-020-282-001,1.64,universal
-020-383-001,1.64,universal
+020-282-001,1.6400000000000001,universal
+020-383-001,1.6400000000000001,universal
 020-481-001,1.96,universal
 020-483-001,1.96,universal
 020-485-001,1.96,universal
@@ -1438,7 +1438,7 @@ frame,price,supplier
 024-600,4.46,universal
 024-700,4.46,universal
 024-800,4.46,universal
-CD 026-500,3.54,universal
+026-500,3.54,universal
 026-600,3.54,universal
 026-700,3.54,universal
 026-800,3.54,universal
@@ -1458,8 +1458,62 @@ CD 026-500,3.54,universal
 033-100-001,2.9,universal
 033-167-001,2.9,universal
 033-282-001,2.54,universal
-1046-9187,14.78,universal
-1046-9188,14.78,universal
+033-383-001,2.54,universal
+033-485-001,2.9,universal
+033-486-001,2.9,universal
+033-487-001,2.9,universal
+033-500,2.96,universal
+033-600,2.96,universal
+033-700,2.96,universal
+040-100,6.12,universal
+040-120,6.12,universal
+040-121,6.12,universal
+041-100,5.66,universal
+041-120,5.66,universal
+041-121,5.66,universal
+042-100,8.82,universal
+042-120,8.82,universal
+042-121,8.82,universal
+043-100,7.2,universal
+043-120,7.2,universal
+043-121,7.2,universal
+050-120,3.06,universal
+050-121,3.06,universal
+050-122,3.06,universal
+050-123,3.06,universal
+051-120,5.12,universal
+051-121,5.12,universal
+051-122,5.12,universal
+051-123,5.12,universal
+053-120,8.4,universal
+053-121,8.4,universal
+053-122,8.4,universal
+053-123,8.4,universal
+054-120,6.86,universal
+054-121,6.86,universal
+054-122,6.86,universal
+054-123,6.86,universal
+058-3436,17.12,universal
+058-3438,17.12,universal
+100-3467,2.1,universal
+1019-9137,5.18,universal
+1019-9141,5.82,universal
+1020-9141,11.540000000000001,universal
+104-100,7.140000000000001,universal
+1041-9169,6.24,universal
+1041-9170,6.24,universal
+1041-9171,6.24,universal
+1041-9172,6.24,universal
+104-200,7.140000000000001,universal
+1042-9169,9.68,universal
+1042-9170,9.68,universal
+1042-9171,9.68,universal
+1042-9172,9.68,universal
+1044-9167,9.86,universal
+1044-9173,9.86,universal
+1046-9186,13.86,universal
+1046-9187,14.780000000000001,universal
+1046-9188,14.780000000000001,universal
 1047-9186,8.42,universal
 1047-9187,9.16,universal
 1047-9188,9.16,universal
@@ -1472,30 +1526,30 @@ CD 026-500,3.54,universal
 106-200,11.64,universal
 199-0343,3.74,universal
 200-151R,2.0,universal
-200-152R,1.64,universal
+200-152R,1.6400000000000001,universal
 200-153R,1.62,universal
 201-001R,7.0,universal
-201-002R,3.28,universal
-201-003R,3.26,universal
-201-003RW,3.26,universal
+201-002R,3.2800000000000002,universal
+201-003R,3.2600000000000002,universal
+201-003RW,3.2600000000000002,universal
 201-004R,2.64,universal
 201-004RW,2.64,universal
-201-011,2.3,universal
-201-083,2.26,universal
-201-110R,1.4,universal
-201-110RG,1.4,universal
-201-110RM,1.4,universal
-201-110RW,1.4,universal
+201-011,2.3000000000000003,universal
+201-083,2.2600000000000002,universal
+201-110R,1.4000000000000001,universal
+201-110RG,1.4000000000000001,universal
+201-110RM,1.4000000000000001,universal
+201-110RW,1.4000000000000001,universal
 201-115,6.26,universal
 201-201R,1.96,universal
 201-268,5.78,universal
-201-301 R,2.68,universal
+201-301R,2.68,universal
 201-355R,2.04,universal
 201-355RG,2.04,universal
-CD 201-355RM,2.04,universal
+201-355RM,2.04,universal
 201-355RW,2.04,universal
-201-360R,3.32,universal
-201-361 R,2.6,universal
+201-360R,3.3200000000000003,universal
+201-361R,2.6,universal
 201-362R,1.84,universal
 201-364R,2.86,universal
 201-365R,1.86,universal
@@ -1511,17 +1565,71 @@ CD 201-355RM,2.04,universal
 201-417R,2.38,universal
 201-419R,2.46,universal
 201-420R,3.38,universal
-201-421R,1.9,universal
-214-77 4-000,1.96,universal
+201-421R,1.9000000000000001,universal
+201-421RG,1.9000000000000001,universal
+201-421RM,1.9000000000000001,universal
+201-421RW,1.9000000000000001,universal
+201-422R,3.7,universal
+201-422RG,3.7,universal
+201-422RM,3.7,universal
+201-422RW,3.7,universal
+201-423R,3.5,universal
+201-423RW,3.5,universal
+201-611,5.28,universal
+201-612,5.28,universal
+201-624R,3.66,universal
+201-912,13.280000000000001,universal
+201-917,4.1,universal
+202-004,4.1,universal
+202-243-500,4.16,universal
+202-244-000,4.16,universal
+202-342-000,4.16,universal
+202-421,6.16,universal
+203-111,9.68,universal
+203-203,5.3,universal
+203-246-000,4.26,universal
+203-260,6.88,universal
+203-261,6.88,universal
+203-323,5.32,universal
+203-324,3.44,universal
+203-326,1.96,universal
+203-424,3.52,universal
+203-426,1.96,universal
+203-503,6.22,universal
+203-504,6.22,universal
+203-511,6.22,universal
+203-512,6.22,universal
+204-243-500,3.7600000000000002,universal
+205-243-500,3.1,universal
+206-001,1.6,universal
+206-243-500,1.92,universal
+206552A,4.34,universal
+206821A,3.8000000000000003,universal
+206822A,3.8000000000000003,universal
+208-021,2.04,universal
+208-082,1.86,universal
+208-653,5.38,universal
+208-730,2.56,universal
+208-733,2.56,universal
+208-737,2.5,universal
+208-738,2.5,universal
+208-739,2.42,universal
+208-800,2.2600000000000002,universal
+208-803,2.2600000000000002,universal
+208-832,4.44,universal
+208-841,5.16,universal
+214-757-200,1.74,universal
+214-760-800,1.74,universal
+214-774-000,1.96,universal
 214-775-000,1.96,universal
-301-167-001,1.66,universal
+301-167-001,1.6600000000000001,universal
 311402A,4.42,universal
 311602A,10.84,universal
-311702A,6.14,universal
-311703A,6.14,universal
+311702A,6.140000000000001,universal
+311703A,6.140000000000001,universal
 311704A,5.64,universal
 311903A,6.0,universal
-322406A,10.2,universal
+322406A,10.200000000000001,universal
 325-4207,4.44,universal
 325-4208,4.44,universal
 325-4209,4.44,universal
@@ -1539,24 +1647,24 @@ CD 201-355RM,2.04,universal
 328-4207,12.96,universal
 328-4208,12.96,universal
 328-4209,12.96,universal
-330-4307,4.6,universal
-330-4308,4.6,universal
-330-4309,4.6,universal
-330-4310,4.6,universal
-330-4311,4.6,universal
-330-4312,4.6,universal
-331-4308,7.64,universal
-331-4309,7.64,universal
-ti) 331-4310,7.64,universal
-331-4311,7.64,universal
-331-4312,7.64,universal
+330-4307,4.6000000000000005,universal
+330-4308,4.6000000000000005,universal
+330-4309,4.6000000000000005,universal
+330-4310,4.6000000000000005,universal
+330-4311,4.6000000000000005,universal
+330-4312,4.6000000000000005,universal
+331-4308,7.640000000000001,universal
+331-4309,7.640000000000001,universal
+331-4310,7.640000000000001,universal
+331-4311,7.640000000000001,universal
+331-4312,7.640000000000001,universal
 332-4307,13.42,universal
 332-4308,13.42,universal
 332-4309,13.42,universal
 332-4310,13.42,universal
 332-4311,13.42,universal
 333-3436,5.42,universal
-< 333-3438,5.42,universal
+333-3438,5.42,universal
 333-3439,5.42,universal
 334-3436,7.08,universal
 334-3438,7.08,universal
@@ -1566,9 +1674,63 @@ ti) 331-4310,7.64,universal
 335-3439,10.22,universal
 340-1200,3.16,universal
 340-1201,3.16,universal
+340-1202,3.16,universal
+340-1205,3.16,universal
+340-1206,3.16,universal
+340-1207,3.16,universal
+340-1208,3.16,universal
+340-1209,3.16,universal
+340-1210,3.16,universal
+341-1200,4.82,universal
+341-1201,4.82,universal
+341-1202,4.82,universal
+341-1203,4.82,universal
+341-1204,4.82,universal
+342-1200,7.8,universal
+342-1201,7.8,universal
+342-1203,7.8,universal
+346-3400,4.26,universal
+346-3402,4.26,universal
+346-3404,4.26,universal
+347-3404,6.08,universal
+349-2110,6.18,universal
+349-2111,6.18,universal
+349904A,4.5,universal
+350004A,2.8000000000000003,universal
+350105A,5.18,universal
+350400F,5.64,universal
+350403F,5.64,universal
+351-001-685,9.44,universal
+351-002-492,9.44,universal
+352-3450,5.54,universal
+352-3451,5.54,universal
+352-3452,5.54,universal
+352-3453,5.54,universal
+353-3450,7.82,universal
+353-3451,7.82,universal
+354-3451,10.38,universal
+355-2112,9.1,universal
+360-2107,4.66,universal
+360-2108,4.66,universal
+361-2108,6.68,universal
+362-2108,8.46,universal
+363-2108,10.96,universal
+383-775-000,3.34,universal
+415-2107,2.1,universal
+415-2108,2.1,universal
+416-2107,2.72,universal
+416-2108,2.72,universal
+416-2110,2.72,universal
+417-2107,4.86,universal
+417-2108,4.86,universal
+417-2110,4.86,universal
+418-2107,7.5,universal
+418-2108,7.5,universal
+418-2110,7.5,universal
+420-2000,7.54,universal
 420-2001,7.54,universal
 420-2002,7.54,universal
-X 420-2003,7.54,universal
+420-2003,7.54,universal
 420-2004,7.54,universal
 420-3000,13.98,universal
 420-3001,13.98,universal
@@ -1589,7 +1751,7 @@ X 420-2003,7.54,universal
 514-4340,3.6,universal
 514-4341,3.6,universal
 514-4343,3.6,universal
-519-570,2.78,universal
+519-570,2.7800000000000002,universal
 5196-2139,7.86,universal
 5196-2426,7.86,universal
 519-770,3.16,universal
@@ -1615,10 +1777,1181 @@ X 420-2003,7.54,universal
 650403F,10.32,universal
 700-002-361,5.66,universal
 709-230-400,6.92,universal
-716-230-500,5.6,universal
-74 8-230-500,5.26,universal
+716-230-500,5.6000000000000005,universal
+748-230-500,5.26,universal
 852-457-200,6.92,universal
-869-9016,11.54,universal
+869-9016,11.540000000000001,universal
+870-9013,6.88,universal
+870-9014,6.88,universal
+870-9015,6.88,universal
+871-9013,3.94,universal
+871-9014,3.94,universal
+871-9015,3.96,universal
+871-9016,3.96,universal
+871-9017,3.96,universal
+872-9013,5.76,universal
+872-9014,5.76,universal
+872-9015,5.76,universal
+872-9016,5.76,universal
+872-9017,5.76,universal
+876-9015,17.5,universal
+876-9016,17.5,universal
+876-9017,17.5,universal
+877-9017,9.52,universal
+908-9107,10.22,universal
+908-9108,11.9,universal
+914-9046,4.74,universal
+914-9047,4.74,universal
+915-9046,8.28,universal
+915-9047,8.28,universal
+915-9048,8.28,universal
+915-9109,9.56,universal
+915-9110,8.52,universal
+915-9111,9.56,universal
+931-9065,6.5200000000000005,universal
+931-9066,6.5200000000000005,universal
+931-9067,6.16,universal
+931-9068,7.68,universal
+931-9069,7.68,universal
+932-9068,14.88,universal
+932-9069,15.3,universal
+952-100-016,3.6,universal
+952-167-016,3.1,universal
+952-282-016,2.2800000000000002,universal
+952-383-016,2.2800000000000002,universal
+987-4401,7.58,universal
+997432F,16.82,universal
+997479F,16.82,universal
+A1411,3.06,universal
+A1611,7.46,universal
+A1711,7.34,universal
+A2211,7.1000000000000005,universal
+A2215,5.48,universal
+A2219,6.5200000000000005,universal
+A4741,6.5200000000000005,universal
+A4743,6.5200000000000005,universal
+A616,1.82,universal
+A619,1.82,universal
+A9541,4.26,universal
+B1109,2.54,universal
+B114,1.5,universal
+B109-18NF,5.7,universal
+B109-21,5.7,universal
+B109-7875,5.98,universal
+B109-7876,5.98,universal
+B1910,1.76,universal
+B2210,3.02,universal
+B2217,3.16,universal
+B2218,3.16,universal
+B2570,4.0,universal
+B2580,4.0,universal
+B3010,2.9,universal
+B3570,5.12,universal
+B3580,5.12,universal
+B3740,2.66,universal
+B3741,2.66,universal
+B3743,2.5,universal
+B3744,2.02,universal
+B3840,3.7600000000000002,universal
+B3844,3.0,universal
+B4580,2.38,universal
+B507,2.44,universal
+B508,2.44,universal
+B517,3.8,universal
+B518,3.8,universal
+B607,2.44,universal
+B608,2.44,universal
+B617,3.8,universal
+B618,3.8,universal
+B707,2.44,universal
+B708,2.44,universal
+B717,3.8,universal
+B718,3.8,universal
+B7112,2.3000000000000003,universal
+B7113,5.36,universal
+B7116,7.5200000000000005,universal
+B715,4.86,universal
+B7218,2.38,universal
+B7228,3.48,universal
+B7238,3.34,universal
+B7248,5.5200000000000005,universal
+B7258,8.34,universal
+B7510,6.48,universal
+B7511,6.48,universal
+B7512,6.08,universal
+B7513,6.08,universal
+B7514,4.36,universal
+B7515,4.36,universal
+B7516,4.36,universal
+B7519,2.16,universal
+B7520,2.16,universal
+B7521,2.16,universal
+B7524,1.3,universal
+B821,1.44,universal
+B822,1.44,universal
+B831,2.24,universal
+B832,2.24,universal
+B841,3.22,universal
+B842,3.22,universal
+B861,2.6,universal
+B862,2.6,universal
+B871,4.08,universal
+B872,4.08,universal
+B920,1.6600000000000001,universal
+B921,1.6600000000000001,universal
+B922,1.6600000000000001,universal
+B923,1.6600000000000001,universal
+B924,1.6600000000000001,universal
+B925,1.6600000000000001,universal
+B926,1.6600000000000001,universal
+B927,1.6600000000000001,universal
+B928,1.6600000000000001,universal
+B929,1.6600000000000001,universal
+B930,1.6600000000000001,universal
+B931,1.6600000000000001,universal
+B940,2.12,universal
+B941,2.12,universal
+B942,2.12,universal
+B943,2.12,universal
+B944,2.12,universal
+B950,1.6600000000000001,universal
+B951,1.6600000000000001,universal
+B952,1.6600000000000001,universal
+B953,1.6600000000000001,universal
+B954,1.6600000000000001,universal
+B955,1.6600000000000001,universal
+B956,1.6600000000000001,universal
+B957,1.6600000000000001,universal
+B958,1.6600000000000001,universal
+B959,1.6600000000000001,universal
+B960,1.6600000000000001,universal
+B961,1.6600000000000001,universal
+B962,1.6600000000000001,universal
+B970,3.16,universal
+B971,3.16,universal
+B972,3.16,universal
+B973,3.16,universal
+B974,3.16,universal
+B975,3.16,universal
+B976,3.16,universal
+B977,3.16,universal
+B978,3.16,universal
+B979,3.16,universal
+B980,3.16,universal
+B981,3.16,universal
+B982,3.16,universal
+BG3210,1.68,universal
+BG910,1.6400000000000001,universal
+BR3229,2.74,universal
+BR3238,4.32,universal
+BR3239,4.32,universal
+BR4013,4.22,universal
+BR4016,4.22,universal
+BR4020,4.22,universal
+BR4113,3.7800000000000002,universal
+BR4116,3.7800000000000002,universal
+BR4120,3.7800000000000002,universal
+BR4213,3.16,universal
+BR4216,3.16,universal
+BR4316,4.26,universal
+BR4416,5.0200000000000005,universal
+BR4420,5.0200000000000005,universal
+BR4513,3.18,universal
+BR4516,3.18,universal
+BR4520,3.18,universal
+BR4613,1.24,universal
+BR4620,1.24,universal
+BR4624,1.24,universal
+BR4625,1.24,universal
+BR4626,1.24,universal
+BR4713,1.6400000000000001,universal
+BR4716,1.6400000000000001,universal
+BR5507,6.24,universal
+BR5510,6.24,universal
+BR5511,6.24,universal
+BR5517,6.24,universal
+BR5518,6.24,universal
+BR6427,3.74,universal
+BR6428,3.74,universal
+BR6429,3.74,universal
+BR6527,5.42,universal
+BR6528,5.42,universal
+BR6529,5.42,universal
+BR6629,1.46,universal
+C200,8.14,universal
+C500,9.700000000000001,universal
+C700,14.5,universal
+CIT-105,8.26,universal
+EC1010,1.4000000000000001,universal
+EC105,3.38,universal
+EC108,1.1,universal
+EC109,1.1,universal
+EC1107,1.24,universal
+EC1108,1.24,universal
+EC1110,0.9,universal
+EC1110M,0.88,universal
+EC120,1.8,universal
+EC121,1.8,universal
+EC1210,0.84,universal
+EC1211,0.84,universal
+EC122,1.8,universal
+EC123,1.8,universal
+EC124,1.8,universal
+EC126,1.8,universal
+EC127,1.8,universal
+EC1605,2.02,universal
+EC1607,2.02,universal
+EC1608,2.02,universal
+EC1609,2.02,universal
+EC1610,2.02,universal
+EC1611,2.02,universal
+EC1612,2.02,universal
+EC1613,2.02,universal
+EC1614,2.02,universal
+EC1710,0.86,universal
+EC1805,1.22,universal
+EC1807,1.22,universal
+EC1808,1.22,universal
+EC1810,1.22,universal
+EC1811,1.22,universal
+EC1907,2.16,universal
+EC1908,2.16,universal
+EC1910,2.16,universal
+EC1911,2.16,universal
+EC1915,2.16,universal
+EC1916,2.16,universal
+EC1917,2.16,universal
+EC1918,2.16,universal
+EC1919,2.16,universal
+EC1920,2.16,universal
+EC1921,2.16,universal
+EC1922,2.16,universal
+EC2100,1.1400000000000001,universal
+EC2111,1.1400000000000001,universal
+EC220,2.82,universal
+EC221,2.82,universal
+EC222,2.82,universal
+EC223,3.02,universal
+EC224,3.02,universal
+EC226,3.02,universal
+EC227,2.82,universal
+EC240,1.7,universal
+EC241,1.7,universal
+EC242,3.42,universal
+EC243,3.42,universal
+EC244,2.08,universal
+EC245,2.08,universal
+EC246,4.68,universal
+EC247,4.68,universal
+EC2610,2.2800000000000002,universal
+EC2810,1.7,universal
+EC340,3.74,universal
+EC341,3.74,universal
+EC343,3.74,universal
+EC344,3.74,universal
+EC345,3.74,universal
+EC346,3.74,universal
+EC350,3.74,universal
+EC351,3.74,universal
+EC352,3.74,universal
+EC353,3.74,universal
+EC354,3.74,universal
+EC355,3.74,universal
+EC356,3.74,universal
+EC360,2.84,universal
+EC363,2.84,universal
+EC365,2.84,universal
+EC405,2.02,universal
+EC407,2.02,universal
+EC408,2.02,universal
+EC4100,2.44,universal
+EC4105,2.18,universal
+EC4106,2.18,universal
+EC4205,2.18,universal
+EC4206,2.18,universal
+EC430,2.46,universal
+EC431,2.46,universal
+EC432,2.46,universal
+EC433,5.0600000000000005,universal
+EC434,5.0600000000000005,universal
+EC435,5.0600000000000005,universal
+EC436F,0.78,universal
+EC437F,0.76,universal
+EC4520,2.04,universal
+EC4521,2.04,universal
+EC4522,2.04,universal
+EC4523,2.04,universal
+EC4524,2.04,universal
+EC460,1.84,universal
+EC461,1.82,universal
+EC462,1.82,universal
+EC463,1.82,universal
+EC464,1.34,universal
+EC465,1.34,universal
+EC466,1.34,universal
+EC467,1.34,universal
+EC480,2.42,universal
+EC481,2.42,universal
+EC482,3.52,universal
+EC483,3.52,universal
+EC484,5.28,universal
+EC485,5.28,universal
+EC500,2.64,universal
+EC503,2.64,universal
+EC530,1.1400000000000001,universal
+EC531,1.1400000000000001,universal
+EC532,1.1400000000000001,universal
+EC533,1.1400000000000001,universal
+EC534,1.1400000000000001,universal
+EC536,1.96,universal
+EC537,1.96,universal
+EC538,1.96,universal
+EC539,1.96,universal
+EC540,1.96,universal
+EC542,1.76,universal
+EC543,1.76,universal
+EC544,1.76,universal
+EC545,1.76,universal
+EC546,1.76,universal
+EC557,2.58,universal
+EC560,3.2600000000000002,universal
+EC561,3.2600000000000002,universal
+EC562,3.2600000000000002,universal
+EC563,3.66,universal
+EC564,3.66,universal
+EC566,6.76,universal
+EC567,6.76,universal
+EC568,6.76,universal
+EC570,1.18,universal
+EC571,1.2,universal
+EC572,1.68,universal
+EC573,1.84,universal
+EC574,2.96,universal
+EC575,3.66,universal
+EC576,3.84,universal
+EC577,1.1400000000000001,universal
+EC578,2.14,universal
+EC579,2.72,universal
+EC6050,4.36,universal
+EC6060,4.48,universal
+EC6061,4.48,universal
+EC6062,4.48,universal
+EC611F,0.78,universal
+EC612F,0.78,universal
+EC613F,0.78,universal
+EC614F,0.78,universal
+EC615F,0.78,universal
+EC616F,0.78,universal
+EC617F,0.78,universal
+EC618F,0.78,universal
+EC619F,0.78,universal
+EC621F,0.78,universal
+EC622F,0.78,universal
+EC630,2.34,universal
+EC631,2.34,universal
+EC632,2.34,universal
+EC633,2.34,universal
+EC634,3.68,universal
+EC635,3.68,universal
+EC636,3.68,universal
+EC637,3.68,universal
+EC638,6.140000000000001,universal
+EC639,6.140000000000001,universal
+EC640,6.140000000000001,universal
+EC641,6.140000000000001,universal
+EC642,4.32,universal
+EC643,4.32,universal
+EC644,4.32,universal
+EC645,4.32,universal
+EC650,2.9,universal
+EC651,2.9,universal
+EC652,2.9,universal
+EC653,2.9,universal
+EC654,3.7,universal
+EC655,3.7,universal
+EC656,3.7,universal
+EC657,3.7,universal
+EC658,6.32,universal
+EC659,6.32,universal
+EC660,6.32,universal
+EC662F,0.78,universal
+EC663F,0.78,universal
+EC664F,0.78,universal
+EC665F,0.78,universal
+EC700,4.18,universal
+EC702,3.66,universal
+EC703,3.14,universal
+EC712B,4.26,universal
+EC717,2.3000000000000003,universal
+EC723,4.94,universal
+EC725,5.0200000000000005,universal
+EC727,5.0200000000000005,universal
+EC728,1.04,universal
+EC732F,0.78,universal
+EC733F,0.78,universal
+EC734F,0.78,universal
+EC735F,0.78,universal
+EC736F,0.78,universal
+EC737F,0.78,universal
+EC738F,0.78,universal
+EC739F,0.78,universal
+EC740,2.08,universal
+EC741,2.08,universal
+EC742,2.08,universal
+EC753,4.94,universal
+EC755,4.32,universal
+EC757,4.32,universal
+EC760,5.88,universal
+EC762,1.9000000000000001,universal
+EC763,1.9000000000000001,universal
+EC764,1.9000000000000001,universal
+EC765,4.98,universal
+EC773,4.64,universal
+EC776,2.86,universal
+EC779,6.96,universal
+EC780,5.26,universal
+EC785,3.3200000000000003,universal
+EC800,1.6600000000000001,universal
+EC864,2.52,universal
+EC867,3.92,universal
+EC880,2.88,universal
+EC881,2.88,universal
+EC883,4.14,universal
+EC884,4.14,universal
+EC885,3.58,universal
+EC888,3.5,universal
+EC889,3.5,universal
+EC890,1.46,universal
+EC891,1.46,universal
+EC892,1.46,universal
+EC906,1.94,universal
+EC907,1.94,universal
+EC908,1.94,universal
+EC920,1.04,universal
+EC930,1.2,universal
+EC931,1.96,universal
+EC932,2.34,universal
+EC933,3.2800000000000002,universal
+EC934,3.94,universal
+EC935,1.82,universal
+EC936,2.5,universal
+EC937,2.1,universal
+EC938,3.48,universal
+EC939,3.94,universal
+EC940,4.0200000000000005,universal
+EC941,3.94,universal
+EC942,3.94,universal
+EC943,1.24,universal
+EC946,1.96,universal
+EC948,2.72,universal
+EC950,2.42,universal
+EC951,2.42,universal
+EC952,2.42,universal
+EC953,2.42,universal
+EC954,2.42,universal
+EC955,3.4,universal
+EC956,3.4,universal
+EC957,3.4,universal
+EC958,3.4,universal
+EC959,3.4,universal
+EC960,3.24,universal
+EC961,3.24,universal
+EC962,3.24,universal
+EC963,3.24,universal
+EC964,3.24,universal
+EC965,3.24,universal
+EC966,3.24,universal
+EC967,3.24,universal
+EC968,3.24,universal
+EC969,3.24,universal
+EC990,3.4,universal
+EC991,3.4,universal
+EC992,3.4,universal
+EC993,3.4,universal
+EC994,6.1000000000000005,universal
+EC995,6.1000000000000005,universal
+EC996,6.1000000000000005,universal
+G1001,2.04,universal
+G1002,2.04,universal
+G1003,2.04,universal
+G1004,2.04,universal
+G1005,2.04,universal
+G1006,2.04,universal
+G1007,3.22,universal
+G1008,3.22,universal
+G1010,2.04,universal
+G1011,2.04,universal
+G1012,2.04,universal
+G1110,2.48,universal
+G1111,2.48,universal
+G1210,2.04,universal
+G1211,2.04,universal
+G1217,3.06,universal
+G1218,3.06,universal
+G1310,2.14,universal
+G1311,2.14,universal
+G1407,2.4,universal
+G1408,2.4,universal
+G1507,2.4,universal
+G1508,2.4,universal
+G1607,2.4,universal
+G1608,2.4,universal
+G2001,2.04,universal
+G2002,2.04,universal
+G2003,2.04,universal
+G2004,2.04,universal
+G2005,2.04,universal
+G2006,2.04,universal
+G2007,3.22,universal
+G2008,3.22,universal
+G2010,2.04,universal
+G2011,2.04,universal
+G2012,2.04,universal
+G2110,2.48,universal
+G2111,2.48,universal
+G2117,3.06,universal
+G2118,3.06,universal
+G2210,2.04,universal
+G2211,2.04,universal
+G2310,2.14,universal
+G2311,2.14,universal
+G3001,5.42,universal
+G3002,5.42,universal
+G3007,6.7,universal
+G3008,6.7,universal
+G3010,5.42,universal
+G3011,5.42,universal
+G3110,6.0600000000000005,universal
+G3111,6.0600000000000005,universal
+G3211,5.42,universal
+G3307,5.5,universal
+G3308,5.5,universal
+G3407,5.5,universal
+G3408,5.5,universal
+G3507,5.5,universal
+G3508,5.5,universal
+G4001,4.84,universal
+G4002,4.84,universal
+G4010,4.84,universal
+G4011,4.84,universal
+G4110,5.48,universal
+G4111,5.48,universal
+G4211,4.84,universal
+H1117,4.62,universal
+H1118,4.62,universal
+H11670,4.2,universal
+H11677,4.2,universal
+H11678,4.2,universal
+H120071,4.78,universal
+H120081,2.66,universal
+H120101,4.26,universal
+H1219,3.7,universal
+H127,1.4000000000000001,universal
+H128,1.4000000000000001,universal
+H137,1.4000000000000001,universal
+H138,1.4000000000000001,universal
+H157,1.4000000000000001,universal
+H158,1.4000000000000001,universal
+H159,1.46,universal
+H169,1.46,universal
+H177,1.4000000000000001,universal
+H192,1.5,universal
+H193,1.54,universal
+H218,1.68,universal
+H219,1.84,universal
+H227,7.82,universal
+H228,7.82,universal
+H257,10.8,universal
+H267,6.18,universal
+H268,6.3,universal
+H277,3.52,universal
+H278,3.52,universal
+H317,2.34,universal
+H318,2.34,universal
+H319,2.1,universal
+H3210,2.02,universal
+H3242,6.84,universal
+H3310,3.7600000000000002,universal
+H3341,4.64,universal
+H3342,4.64,universal
+H3349,4.64,universal
+H3408,7.46,universal
+H3410,5.86,universal
+H418,1.84,universal
+H419,1.82,universal
+H4217,1.16,universal
+H4218,1.16,universal
+H4227,1.24,universal
+H4228,1.24,universal
+H4237,3.2800000000000002,universal
+H4238,3.2800000000000002,universal
+H4247,2.0,universal
+H4248,2.0,universal
+H4257,2.34,universal
+H4258,2.34,universal
+H4267,3.2800000000000002,universal
+H4268,3.2800000000000002,universal
+H4277,3.54,universal
+H4278,3.54,universal
+H4287,4.48,universal
+H4288,4.48,universal
+H-444,10.46,universal
+H457,4.5,universal
+H459,4.5,universal
+H477,1.28,universal
+H478,1.28,universal
+H5000,2.96,universal
+H5001,2.96,universal
+H5002,2.96,universal
+H5003,2.96,universal
+H5100,4.18,universal
+H5101,4.18,universal
+H5102,4.18,universal
+H5103,4.18,universal
+H517,2.06,universal
+H518,2.06,universal
+H519,1.98,universal
+H5200,5.96,universal
+H5201,5.96,universal
+H5300,8.88,universal
+H5301,8.88,universal
+H5400,5.66,universal
+H5401,5.66,universal
+H5402,5.66,universal
+H5403,5.66,universal
+H-555,11.1,universal
+H558,7.54,universal
+H559,7.5600000000000005,universal
+H617,1.92,universal
+H618,2.16,universal
+H6205,2.48,universal
+H6207,2.7,universal
+H6208,2.7,universal
+H6210,2.48,universal
+H6305,2.42,universal
+H6307,2.46,universal
+H6308,2.46,universal
+H6310,2.42,universal
+H6405,2.42,universal
+H6407,2.42,universal
+H6408,2.42,universal
+H6410,2.42,universal
+H6505,2.18,universal
+H6515,3.16,universal
+H6525,4.64,universal
+H6535,6.0,universal
+H717,1.22,universal
+H7441,7.0200000000000005,universal
+H7442,6.42,universal
+H7443,11.540000000000001,universal
+H7444,9.040000000000001,universal
+H7445,11.6,universal
+H7450,1.32,universal
+H8000,4.92,universal
+H817,7.7,universal
+H8201,6.8,universal
+H8202,6.8,universal
+H8204,12.120000000000001,universal
+H8205,12.120000000000001,universal
+H8206,11.34,universal
+H8209,6.76,universal
+H8210,6.42,universal
+H8211,11.92,universal
+H8212,11.3,universal
+H8214,1.3800000000000001,universal
+H897,5.88,universal
+H898,5.88,universal
+H920,7.9,universal
+HS23801,2.12,universal
+I105,6.04,universal
+I106,6.04,universal
+I110,6.04,universal
+I120,1.32,universal
+I125,1.72,universal
+I201,2.7,universal
+I205,5.0,universal
+I210,5.0,universal
+I300,1.26,universal
+I305,6.96,universal
+I310,6.96,universal
+I336,2.64,universal
+I405,3.54,universal
+I406,3.54,universal
+I410,3.54,universal
+I527,4.32,universal
+I528,4.32,universal
+I535,6.36,universal
+I545,5.3,universal
+I555,8.52,universal
+I556,6.58,universal
+I565,5.6000000000000005,universal
+I575,5.12,universal
+I585,8.96,universal
+I595,3.36,universal
+I605,7.9,universal
+I610,7.9,universal
+I6105,1.3800000000000001,universal
+I6110,1.3800000000000001,universal
+I6205,1.86,universal
+I6210,1.86,universal
+I6212,1.86,universal
+I6213,1.86,universal
+I6216,1.86,universal
+I6305,2.4,universal
+I6310,2.4,universal
+I6312,2.4,universal
+I6313,2.4,universal
+I6314,2.4,universal
+I6316,2.4,universal
+I6405,6.44,universal
+I6410,6.44,universal
+I652,3.7,universal
+I654,3.7,universal
+I705,5.64,universal
+I706,5.64,universal
+I710,5.64,universal
+I736,6.0600000000000005,universal
+I805,8.38,universal
+I827,10.78,universal
+K2002,8.86,universal
+K2006,8.86,universal
+L1652,4.18,universal
+L1653,4.18,universal
+L3406,4.12,universal
+L3656,1.28,universal
+L5280,5.34,universal
+L5281,5.34,universal
+L5906,7.18,universal
+L8306,9.06,universal
+M2001,2.0,universal
+M2002,2.94,universal
+M2003,2.0,universal
+M2004,2.94,universal
+M2005,3.16,universal
+M2450,3.0,universal
+M2550,4.36,universal
+MSB01,0.78,universal
+MSB011,1.8,universal
+MSB02,1.1,universal
+MSB020,0.88,universal
+MSB022,1.2,universal
+MSB03,1.04,universal
+MSB05,2.72,universal
+MSB06,1.08,universal
+MSB07,2.54,universal
+N02,7.04,universal
+N03,7.2,universal
+N05,7.34,universal
+N1010,2.2800000000000002,universal
+N1010D,2.72,universal
+N1011,3.18,universal
+N1057,6.9,universal
+N1107,2.4,universal
+N1108,2.4,universal
+N1109,2.3000000000000003,universal
+N1110,1.4000000000000001,universal
+N1111,1.4000000000000001,universal
+N1120,1.06,universal
+N1121,1.18,universal
+N115,5.32,universal
+N116,5.32,universal
+N118,5.32,universal
+N119,5.32,universal
+N1210,1.8,universal
+N1211,2.04,universal
+N1214,1.7,universal
+N1410,1.6,universal
+N1510,2.66,universal
+N1530,5.68,universal
+N1531,5.68,universal
+N1540,7.68,universal
+N1541,7.68,universal
+N157,1.58,universal
+N158,1.58,universal
+N167,1.46,universal
+N168,1.46,universal
+N1709,3.48,universal
+N1809,4.74,universal
+N1814,2.72,universal
+N1914,4.58,universal
+N2010,5.32,universal
+N2014,1.48,universal
+N2110,1.8,universal
+N2111,2.04,universal
+N2208,6.58,universal
+N2210,5.32,universal
+N2214,2.68,universal
+N2307,5.3,universal
+N2308,5.3,universal
+N241134,3.16,universal
+N2507,9.16,universal
+N2508,9.22,universal
+N2530,4.04,universal
+N2531,4.04,universal
+N2540,6.0,universal
+N2541,6.0,universal
+N2607,8.66,universal
+N2608,8.66,universal
+N2610,2.9,universal
+N2611,2.9,universal
+N2617,2.94,universal
+N2618,2.94,universal
+N2619,2.94,universal
+N2620,2.6,universal
+N2621,2.6,universal
+N2622,2.6,universal
+N2623,2.6,universal
+N2624,2.6,universal
+N2625,2.6,universal
+N2626,2.6,universal
+N2627,2.6,universal
+N2628,2.6,universal
+N2629,2.6,universal
+N2630,2.6,universal
+N2631,2.6,universal
+N2632,2.6,universal
+N2707,2.48,universal
+N2708,2.48,universal
+N2710,3.08,universal
+N2711,2.48,universal
+N2713,2.48,universal
+N2714,2.48,universal
+N2810,2.84,universal
+N2814,3.04,universal
+N2910,2.2800000000000002,universal
+N2914,3.76,universal
+N3022,2.56,universal
+N3024,2.56,universal
+N314,3.62,universal
+N3205,3.94,universal
+N3207,3.72,universal
+N3307,4.88,universal
+N3311,3.4,universal
+N3410,3.4,universal
+N3510,3.92,universal
+N3710S,2.96,universal
+N3810S,5.22,universal
+N3910,3.44,universal
+N4010,3.96,universal
+N4011,3.96,universal
+N4024,4.5,universal
+N4110,1.92,universal
+N4210,4.98,universal
+N4407,3.34,universal
+N4510,2.96,universal
+N4710,1.08,universal
+N4810,1.6600000000000001,universal
+N4910,5.44,universal
+N5010,1.22,universal
+N5011,1.22,universal
+N5020,5.5,universal
+N5022,5.0600000000000005,universal
+N5023,5.0600000000000005,universal
+N5024,5.0600000000000005,universal
+N5080,8.42,universal
+N5110,3.48,universal
+N5111,3.48,universal
+N5207,9.96,universal
+N5210,5.3,universal
+N530,4.04,universal
+N540,3.44,universal
+N550,5.76,universal
+N5527,1.34,universal
+N560,4.0,universal
+N570,5.12,universal
+N571,5.12,universal
+N6010,5.16,universal
+N6011,5.16,universal
+N6023,6.8,universal
+N6024,6.8,universal
+N6050,11.620000000000001,universal
+N6610,3.9,universal
+N6670,3.7800000000000002,universal
+N7010,3.4,universal
+N7011,3.4,universal
+N7017,2.54,universal
+N7050,8.24,universal
+N7710,7.72,universal
+N7711,7.72,universal
+N7805,6.18,universal
+N7807,6.18,universal
+N7808,6.18,universal
+N7810,6.18,universal
+N7811,6.18,universal
+N8008,2.86,universal
+N9010,6.48,universal
+N9038,3.98,universal
+N910,1.34,universal
+N9409,6.92,universal
+N9410,6.92,universal
+N9707,9.98,universal
+NB3610,2.52,universal
+NB3613,3.96,universal
+NB3614,3.96,universal
+NC-500,7.5600000000000005,universal
+NC-900,5.08,universal
+NC-9041,3.9,universal
+NE109,5.04,universal
+NE205,4.28,universal
+P1705,3.92,universal
+P1706,3.92,universal
+P1707,5.26,universal
+P1708,5.26,universal
+P1710,4.0200000000000005,universal
+P1711,4.0200000000000005,universal
+P1712,4.16,universal
+P1722,4.0200000000000005,universal
+P1727,5.24,universal
+P1728,5.24,universal
+P1805,3.02,universal
+P1806,3.02,universal
+P1807,3.3000000000000003,universal
+P1808,3.3000000000000003,universal
+P1810,2.9,universal
+P1811,2.9,universal
+P2005,5.44,universal
+P2007,5.9,universal
+P2008,5.9,universal
+P2020,5.44,universal
+P2021,5.44,universal
+P222,2.98,universal
+P227,3.2800000000000002,universal
+P232,6.04,universal
+P237,6.12,universal
+P242,1.58,universal
+P247,1.58,universal
+P265,3.22,universal
+P2650,3.0,universal
+P2651,3.0,universal
+P2652,3.68,universal
+P2653,3.3,universal
+P2654,3.3,universal
+P2655,3.3,universal
+P2656,3.3,universal
+P2657,3.3,universal
+P2658,3.3,universal
+P2663,1.74,universal
+P2664,1.74,universal
+P2665,1.74,universal
+P2666,1.74,universal
+P2667,1.74,universal
+P2668,1.74,universal
+P268,3.4,universal
+P273,6.5200000000000005,universal
+P277,7.1000000000000005,universal
+P278,6.98,universal
+P279,6.98,universal
+P308,3.62,universal
+P309,3.62,universal
+P319,7.22,universal
+P328,4.32,universal
+P329,4.32,universal
+P339,6.38,universal
+P4001,5.58,universal
+P4002,5.58,universal
+P4003,5.58,universal
+P4004,5.58,universal
+P4005,5.58,universal
+P4011,6.68,universal
+P4012,6.68,universal
+P4013,6.68,universal
+P4014,6.68,universal
+P4015,6.68,universal
+P4021,5.12,universal
+P4022,5.12,universal
+P4023,5.12,universal
+P4024,5.12,universal
+P4025,5.12,universal
+P4026,5.6000000000000005,universal
+P4027,5.6000000000000005,universal
+P4031,7.4,universal
+P4032,7.4,universal
+P4033,8.1,universal
+P4034,8.1,universal
+P4041,5.86,universal
+P4042,5.86,universal
+P4043,5.86,universal
+P4044,5.86,universal
+P407,3.02,universal
+P408,3.02,universal
+P409,3.02,universal
+P410,3.02,universal
+P417,4.24,universal
+P418,4.24,universal
+P419,4.24,universal
+P420,4.24,universal
+P46012,1.46,universal
+P46013,1.46,universal
+P46014,1.46,universal
+P46016,1.46,universal
+P4721,3.12,universal
+P4722,5.6000000000000005,universal
+P4725,9.58,universal
+P4726,1.86,universal
+P4821,3.12,universal
+P4822,5.6000000000000005,universal
+P4823,6.04,universal
+P4825,9.68,universal
+P4826,1.86,universal
+P6559,3.06,universal
+P6667,4.64,universal
+PR214,7.28,universal
+PR217,7.28,universal
+PR219,7.28,universal
+S232218,8.96,universal
+S232219,8.96,universal
+S232313,8.96,universal
+S33502,8.4,universal
+S33506,4.22,universal
+S33513,4.22,universal
+S35014,4.82,universal
+S501,10.64,universal
+S502,10.64,universal
+S513,4.92,universal
+S522,1.54,universal
+S524,1.54,universal
+S605,2.88,universal
+S7001,3.0,universal
+S7002,3.0,universal
+S7003,3.0,universal
+S7004,3.0,universal
+S7005,6.34,universal
+S7006,6.34,universal
+S7007,6.34,universal
+S7008,6.34,universal
+S703,5.6000000000000005,universal
+S705,5.6000000000000005,universal
+T122A,1.62,universal
+T2018,10.5,universal
+T2119,8.700000000000001,universal
+T2200,5.38,universal
+T2250,7.4,universal
+T3331,5.72,universal
+T3332,4.2,universal
+T3333,2.8000000000000003,universal
+T3334,2.8000000000000003,universal
+T3335,4.54,universal
+T3336,8.58,universal
+T3487,16.98,universal
+T3488,16.98,universal
+T3489,16.98,universal
+T3490,16.98,universal
+T3527,9.66,universal
+T3528,9.66,universal
+T3628,13.8,universal
+T3629,14.14,universal
+T4150,4.98,universal
+T4151,5.26,universal
+T4153,5.26,universal
+T4161,8.4,universal
+T4162,8.32,universal
+T4163,8.32,universal
+T7202,2.84,universal
+T7206,6.640000000000001,universal
+T7210,1.2,universal
+T7211,1.2,universal
+T9603,7.12,universal
+V100B,1.6400000000000001,universal
+V100N,1.6400000000000001,universal
+V100W,1.6400000000000001,universal
+V101,1.48,universal
+V102,1.48,universal
+V103,1.48,universal
+V104,1.48,universal
+V105,1.48,universal
+V106,1.48,universal
+V107,1.48,universal
+V108,1.48,universal
+V110,1.48,universal
+V1270,2.46,universal
+V1280,2.46,universal
+V200B,2.58,universal
+V200N,2.58,universal
+V200W,2.58,universal
+V201,2.2800000000000002,universal
+V210,2.2800000000000002,universal
+V250B,2.3000000000000003,universal
+V250N,2.3000000000000003,universal
+V250W,2.3000000000000003,universal
+V300B,2.7,universal
+V300W,2.7,universal
+V301,1.7,universal
+V302,1.7,universal
+V305,1.7,universal
+V308,1.7,universal
+V309,1.7,universal
+V310,1.7,universal
+V311,1.7,universal
+V312,1.7,universal
+V400B,3.9,universal
+V400W,3.9,universal
+V450B,3.9,universal
+V450N,3.9,universal
+V450W,3.9,universal
+V500B,2.56,universal
+V500N,2.56,universal
+V500W,2.56,universal
+V550B,2.56,universal
+V550N,2.56,universal
+V550W,2.56,universal
+V600B,1.56,universal
+V600N,1.56,universal
+V600W,1.56,universal
+V700B,1.82,universal
+V700N,1.82,universal
+V700W,1.82,universal
+W1112,1.6,universal
+W1113,1.6,universal
+W1114,1.6,universal
+W1115,1.6,universal
+W1116,1.6,universal
+W1117,1.6,universal
+W1212,2.06,universal
+W1213,2.06,universal
+W1214,2.06,universal
+W1215,2.06,universal
+W1216,2.06,universal
+W1217,2.06,universal
+W1512,2.88,universal
+W1514,2.88,universal
+W1516,2.88,universal
+W2112,2.06,universal
+W2113,2.06,universal
+W2114,2.06,universal
+W2115,2.06,universal
+W2116,2.06,universal
+W2117,2.06,universal
+W3012,3.1,universal
+W3013,3.1,universal
+W3014,3.1,universal
+W3015,3.1,universal
+W3016,3.1,universal
+W3017,3.1,universal
+W3020,3.1,universal
+W3021,3.1,universal
+W3024,3.1,universal
+W3320,3.3000000000000003,universal
+W3321,3.3000000000000003,universal
+W3323,3.3000000000000003,universal
+W3324,3.3000000000000003,universal
+W3325,3.3000000000000003,universal
+W3420,3.68,universal
+W3421,3.68,universal
+W3425,3.68,universal
+W3505,4.0200000000000005,universal
+W3507,4.0200000000000005,universal
+W3508,4.0200000000000005,universal
+W3510,4.0200000000000005,universal
+W3511,4.0200000000000005,universal
+W3512,4.0200000000000005,universal
+W3520,4.4,universal
+W3521,4.4,universal
+W3522,4.4,universal
+W3530,4.0200000000000005,universal
+W3531,4.0200000000000005,universal
+W4032,3.36,universal
+W4130,5.48,universal
+W4131,5.32,universal
 8018,2.62,omega
 8019,2.62,omega
 8209,9.32,omega
@@ -2163,174 +3496,35 @@ E84055,1.33,omega
 189,2.23,omega
 198,0.57,omega
 187,2.97,omega
-189,1.71,omega
-189,1.71,omega
-187,2.72,omega
-198,2.11,omega
 209,1.12,omega
-209,0.60,omega
-186,2.61,omega
-189,2.23,omega
-189,2.23,omega
 203,2.84,omega
-203,1.37,omega
-203,1.80,omega
-203,0.95,omega
-203,0.59,omega
 202,0.46,omega
-202,0.58,omega
-202,0.44,omega
 201,1.41,omega
-202,0.83,omega
-202,0.46,omega
-202,0.59,omega
-201,1.41,omega
-202,0.83,omega
 200,1.87,omega
-200,0.82,omega
-200,1.64,omega
-200,0.85,omega
-200,1.12,omega
-204,1.95,omega
 204,1.95,omega
 184,2.18,omega
-184,2.18,omega
-184,1.28,omega
-184,1.28,omega
-184,1.28,omega
-193,1.43,omega
-193,1.43,omega
 193,1.43,omega
 192,1.47,omega
-192,1.47,omega
-193,1.22,omega
-193,1.22,omega
-193,1.22,omega
-193,1.22,omega
 190,1.51,omega
-190,0.95,omega
-190,0.95,omega
 206,1.28,omega
-206,1.28,omega
-206,1.28,omega
-206,0.96,omega
-206,0.96,omega
-206,0.96,omega
-206,0.96,omega
 208,1.19,omega
-208,0.80,omega
-208,0.80,omega
 207,2.18,omega
-207,2.18,omega
-192,0.99,omega
-192,0.99,omega
 195,1.05,omega
 188,2.04,omega
-188,1.29,omega
-209,1.60,omega
-207,1.18,omega
-207,1.18,omega
-207,0.95,omega
-207,0.95,omega
 205,1.62,omega
-205,1.62,omega
-205,1.02,omega
-205,1.02,omega
-188,2.24,omega
-188,1.61,omega
 194,1.27,omega
-194,1.27,omega
-194,1.27,omega
-194,1.27,omega
-194,0.85,omega
-194,0.85,omega
-194,0.85,omega
-194,0.85,omega
-192,1.47,omega
-198,0.90,omega
 199,2.09,omega
-199,1.12,omega
-199,0.55,omega
 191,2.17,omega
-191,2.17,omega
-209,0.77,omega
 197,2.22,omega
-197,2.22,omega
-197,1.53,omega
-197,1.53,omega
 196,1.00,omega
-195,1.00,omega
-196,1.42,omega
-195,1.12,omega
-195,1.12,omega
-196,1.12,omega
-196,1.53,omega
-195,0.85,omega
-196,0.85,omega
-196,1.16,omega
-200,1.83,omega
-199,1.76,omega
 210,1.23,omega
-210,1.23,omega
-208,0.81,omega
-198,0.81,omega
-211,2.58,omega
 211,2.58,omega
 212,1.31,omega
-212,1.31,omega
-212,1.31,omega
-211,1.78,omega
-211,1.78,omega
-212,1.09,omega
-212,1.09,omega
-212,1.09,omega
-212,0.68,omega
-212,0.68,omega
-212,0.68,omega
-212,1.08,omega
-212,0.88,omega
 213,1.23,omega
-213,0.58,omega
-213,1.60,omega
-213,2.18,omega
 215,0.54,omega
-215,0.84,omega
-215,1.77,omega
-215,0.54,omega
-215,0.84,omega
-215,1.77,omega
 216,0.54,omega
-216,0.84,omega
-216,1.77,omega
-216,0.54,omega
-216,0.84,omega
-216,1.77,omega
-194,1.27,omega
-194,1.27,omega
-210,1.50,omega
-210,0.86,omega
-210,1.01,omega
 185,2.12,omega
-185,1.51,omega
-185,0.88,omega
-185,0.64,omega
-192,1.74,omega
-192,1.74,omega
 214,2.15,omega
-214,2.15,omega
-214,2.15,omega
-214,2.15,omega
-214,1.14,omega
-214,1.14,omega
-214,1.14,omega
-214,1.14,omega
-214,0.84,omega
-214,0.84,omega
-214,0.84,omega
-214,0.84,omega
-204,1.74,omega
-204,0.83,omega
-204,0.58,omega
 78770,2.58,omega
 78799,1.45,omega
 78807,5.63,omega
@@ -2868,797 +4062,985 @@ E84059,1.88,omega
 84217,4.25,omega
 84218,4.25,omega
 84219,3.75,omega
-2322080,7.00,bella
-5110870,4.16,bella
-5111120,3.96,bella
-5112090,5.66,bella
-5112100,5.66,bella
-5112110,5.66,bella
-5112120,5.66,bella
-5112160,4.46,bella
-5112170,5.61,bella
-5112210,4.27,bella
-5201930,8.34,bella
-5201950,8.34,bella
-5201960,7.42,bella
-5201980,7.42,bella
-5201990,7.84,bella
-5202000,7.42,bella
-5202010,10.58,bella
-5202020,10.38,bella
-5202030,10.58,bella
-5202050,10.58,bella
-5202150,5.25,bella
-5202160,5.25,bella
-5202170,5.25,bella
-5202180,5.25,bella
-5202190,5.25,bella
-5202200,5.25,bella
-5202210,5.25,bella
-5202240,5.25,bella
-5202250,5.25,bella
-5202260,5.25,bella
-5202270,5.25,bella
-5202330,9.08,bella
-5202340,9.08,bella
-5202350,9.08,bella
-5202360,9.08,bella
-5202370,9.08,bella
-5202380,9.08,bella
-5202390,8.82,bella
-5202430,8.82,bella
-5202440,9.47,bella
-5202450,9.47,bella
-5202460,9.47,bella
-5202470,9.47,bella
-5202480,9.47,bella
-5202490,9.47,bella
-5202500,9.47,bella
-5202510,11.98,bella
-5202520,9.14,bella
-5202570,9.07,bella
-5202580,9.07,bella
-5202590,9.07,bella
-5202600,9.07,bella
-5202610,9.07,bella
-5202620,9.07,bella
-5202630,9.96,bella
-5202640,9.96,bella
-5202660,9.96,bella
-5202670,9.96,bella
-5202680,7.50,bella
-5202690,7.50,bella
-5202700,7.65,bella
-5202710,7.65,bella
-5202720,7.65,bella
-5202730,23.26,bella
-5202740,18.19,bella
-5202750,18.19,bella
-5202760,23.26,bella
-5202770,17.48,bella
-5202800,14.02,bella
-5202820,11.02,bella
-5202860,9.48,bella
-5202920,9.61,bella
-5202930,9.61,bella
-5202940,9.61,bella
-5202950,9.61,bella
-5202960,9.61,bella
-5202970,9.61,bella
-5202980,9.61,bella
-5202990,9.61,bella
-5203000,6.44,bella
-5203010,6.44,bella
-5203020,6.44,bella
-5203030,6.44,bella
-5203040,6.44,bella
-5203050,6.44,bella
-5203060,11.40,bella
-5203070,11.40,bella
-5203080,11.40,bella
-5203090,11.40,bella
-5203100,11.40,bella
-5203110,11.40,bella
-5203120,6.31,bella
-5203130,6.31,bella
-5203140,6.31,bella
-5203150,6.31,bella
-5203160,6.31,bella
-5203170,6.31,bella
-5203180,12.45,bella
-5203190,9.02,bella
-5203200,12.45,bella
-5203210,15.04,bella
-5203220,14.60,bella
-5203230,12.45,bella
-5203240,9.83,bella
-5203250,6.90,bella
-5203260,9.83,bella
-5203270,11.74,bella
-5203290,9.83,bella
-5203300,10.18,bella
-5203310,9.29,bella
-5203320,10.18,bella
-5203330,12.17,bella
-5203340,12.17,bella
-5203350,10.18,bella
-5203360,5.86,bella
-5203370,4.32,bella
-5203380,5.86,bella
-5203390,7.30,bella
-5203400,7.30,bella
-5203410,5.86,bella
-5203420,3.98,bella
-5203430,3.98,bella
-5203440,3.98,bella
-5203450,3.98,bella
-5203460,3.98,bella
-5203470,9.42,bella
-5203600,6.25,bella
-5203620,6.25,bella
-5203630,6.25,bella
-5203640,6.25,bella
-5203650,6.25,bella
-5203660,6.07,bella
-5203680,6.25,bella
-5203690,6.07,bella
-5203700,6.25,bella
-5203710,6.25,bella
-5203720,6.25,bella
-5203730,6.25,bella
-5203740,6.25,bella
-5203750,6.25,bella
-5203760,12.02,bella
-5203770,12.02,bella
-5203780,11.67,bella
-5203790,12.02,bella
-5203800,15.30,bella
-5203810,12.97,bella
-5203820,12.97,bella
-5203830,11.37,bella
-5203840,11.37,bella
-5203850,14.47,bella
-5203860,14.47,bella
-5203870,14.47,bella
-5203880,11.86,bella
-5203890,11.86,bella
-5203900,11.86,bella
-5203910,11.25,bella
-5203920,11.25,bella
-5203930,11.25,bella
-5203940,11.25,bella
-5203950,11.25,bella
-5203960,7.38,bella
-5203970,7.38,bella
-5203980,7.38,bella
-5203990,9.29,bella
-5204000,7.38,bella
-5204010,7.38,bella
-5204020,7.38,bella
-5204030,7.38,bella
-5204040,7.38,bella
-5204050,7.38,bella
-5204060,10.30,bella
-5204070,10.30,bella
-5204080,10.30,bella
-5204090,10.30,bella
-5204100,10.30,bella
-5204110,10.60,bella
-5204120,10.60,bella
-5204130,10.60,bella
-5204140,10.60,bella
-5204150,10.60,bella
-5204160,6.06,bella
-5204170,6.06,bella
-5204180,6.06,bella
-5204190,6.06,bella
-5204200,6.06,bella
-5204210,10.60,bella
-5204220,10.60,bella
-5204230,10.60,bella
-5204240,10.60,bella
-5204250,10.60,bella
-5204260,6.68,bella
-5204270,6.68,bella
-5204280,6.68,bella
-5204290,6.68,bella
-5204300,6.68,bella
-5204310,16.37,bella
-5204320,16.37,bella
-5204330,16.37,bella
-5204340,16.37,bella
-5204350,10.75,bella
-5204360,10.75,bella
-5204370,10.75,bella
-5204380,10.75,bella
-5204390,10.75,bella
-5204400,10.75,bella
-5204410,14.20,bella
-5204420,14.20,bella
-5204430,14.20,bella
-5204440,14.20,bella
-5204450,14.20,bella
-5204460,9.86,bella
-5204470,9.86,bella
-5204480,9.86,bella
-5204490,9.86,bella
-5204500,9.86,bella
-5204510,17.06,bella
-5204520,17.06,bella
-5204530,17.06,bella
-5204540,17.06,bella
-5204550,7.09,bella
-5204560,7.09,bella
-5204570,7.09,bella
-5204580,7.09,bella
-5204590,10.06,bella
-5204600,10.06,bella
-5204610,10.06,bella
-5204620,10.06,bella
-5204630,7.77,bella
-5204640,7.77,bella
-5204650,7.77,bella
-5204660,7.77,bella
-5204670,15.21,bella
-5204680,15.21,bella
-5204690,15.21,bella
-5204700,24.34,bella
-5204710,24.34,bella
-5204720,24.34,bella
-5204730,22.51,bella
-5204740,22.51,bella
-5204750,10.46,bella
-5204760,10.46,bella
-5204770,10.46,bella
-5204780,10.46,bella
-5204790,10.46,bella
-5204800,11.03,bella
-5204810,11.03,bella
-5204820,7.62,bella
-5204830,8.29,bella
-5204840,7.62,bella
-5204850,7.62,bella
-5204860,7.62,bella
-5204870,7.62,bella
-5204880,7.62,bella
-5204890,7.62,bella
-5204900,16.63,bella
-5204910,16.63,bella
-5204920,16.63,bella
-5204930,19.61,bella
-5204940,19.61,bella
-5204950,19.61,bella
-5204960,7.38,bella
-5204970,7.38,bella
-5204980,7.38,bella
-5204990,7.38,bella
-5205000,7.38,bella
-5205010,7.38,bella
-5205030,7.38,bella
-5205040,7.38,bella
-5205050,7.38,bella
-5205060,7.38,bella
-5205070,7.38,bella
-5205080,7.38,bella
-5205090,9.17,bella
-5205100,9.17,bella
-5205110,9.17,bella
-5205120,9.17,bella
-5205130,20.09,bella
-5205140,20.09,bella
-5205150,20.09,bella
-5205160,20.09,bella
-5205170,20.09,bella
-5205180,20.09,bella
-5205190,20.09,bella
-5205200,20.09,bella
-5205210,17.34,bella
-5205220,17.34,bella
-5205230,17.34,bella
-5205240,17.34,bella
-5205250,17.34,bella
-5205260,17.34,bella
-5205270,17.34,bella
-5205280,17.34,bella
-5205290,14.19,bella
-5205300,14.19,bella
-5205310,18.17,bella
-5205320,14.19,bella
-5205330,14.19,bella
-5205340,18.17,bella
-5205350,9.58,bella
-5205360,9.58,bella
-5205370,9.58,bella
-5205380,9.58,bella
-5205390,9.58,bella
-5205400,9.58,bella
-5205410,9.58,bella
-5205420,9.58,bella
-5205430,9.58,bella
-5205440,9.58,bella
-5205450,9.58,bella
-5205460,9.58,bella
-5205470,26.70,bella
-5205480,20.69,bella
-5205490,20.69,bella
-5205500,14.38,bella
-5205510,14.38,bella
-5205520,18.41,bella
-5205530,14.38,bella
-5205540,12.17,bella
-5205550,9.58,bella
-5205560,9.58,bella
-5205570,9.58,bella
-5205580,18.43,bella
-5205590,18.43,bella
-5205600,14.39,bella
-5545520,6.00,bella
-5545530,6.00,bella
-5545570,13.99,bella
-5545580,13.99,bella
-5545640,13.99,bella
-5545650,13.99,bella
-5545660,13.99,bella
-5545720,8.21,bella
-5545730,8.21,bella
-5545750,8.21,bella
-5545760,8.21,bella
-5545770,8.21,bella
-5546140,4.96,bella
-5546220,3.14,bella
-5546230,5.16,bella
-5546240,4.64,bella
-5546250,5.16,bella
-5546260,5.16,bella
-5546270,5.16,bella
-5546280,5.16,bella
-5546290,4.02,bella
-5546300,4.02,bella
-5546310,4.02,bella
-5546320,4.02,bella
-5546330,4.02,bella
-5546340,4.02,bella
-5546350,5.76,bella
-5546360,5.76,bella
-5546370,5.76,bella
-5546380,5.76,bella
-5546390,5.76,bella
-5546400,5.76,bella
-5546410,5.76,bella
-5546420,5.76,bella
-5546430,5.76,bella
-5546440,5.76,bella
-5546450,5.76,bella
-5546460,5.76,bella
-5546470,5.76,bella
-5546480,5.76,bella
-5546490,5.76,bella
-5546500,5.76,bella
-5546510,10.55,bella
-5546520,10.55,bella
-5546530,10.55,bella
-5546540,11.22,bella
-5546550,11.22,bella
-5546560,11.22,bella
-5546630,7.27,bella
-5546650,7.27,bella
-5546690,7.27,bella
-5546700,7.06,bella
-5546720,11.61,bella
-5546750,9.42,bella
-5546760,9.42,bella
-5546770,9.42,bella
-5546780,9.42,bella
-5546790,14.66,bella
-5546800,14.66,bella
-5546810,14.66,bella
-5546820,14.66,bella
-5546830,12.39,bella
-5546840,12.39,bella
-5546850,12.39,bella
-5546860,7.43,bella
-5546870,7.43,bella
-5546880,7.43,bella
-5546890,7.10,bella
-5546900,7.10,bella
-5546910,7.10,bella
-5546920,6.66,bella
-5546930,6.66,bella
-5546940,6.66,bella
-5546950,6.66,bella
-5546960,11.90,bella
-5546970,11.90,bella
-5546980,11.90,bella
-5546990,11.90,bella
-5547000,10.46,bella
-5547010,10.46,bella
-5547020,10.46,bella
-5547030,10.46,bella
-5547040,12.50,bella
-5547050,12.50,bella
-5547060,5.47,bella
-5547070,5.47,bella
-5547080,5.59,bella
-5547090,5.59,bella
-5547100,5.59,bella
-5547110,5.59,bella
-5547120,5.59,bella
-5547130,5.59,bella
-5547140,5.59,bella
-5547150,5.59,bella
-5547160,5.59,bella
-5643100,11.70,bella
-5700050,6.01,bella
-5700060,6.01,bella
-5700070,6.01,bella
-5700080,6.01,bella
-5700090,3.83,bella
-5700100,3.83,bella
-5700110,3.83,bella
-5700120,3.83,bella
-5700130,3.64,bella
-5700140,3.64,bella
-5700150,3.64,bella
-5700160,3.64,bella
-5801070,6.31,bella
-5801090,6.31,bella
-5801270,6.01,bella
-5801300,6.31,bella
-5801460,5.72,bella
-5801590,5.73,bella
-5801770,7.06,bella
-5801780,7.06,bella
-5801790,5.22,bella
-5801800,5.22,bella
-5801810,7.56,bella
-5801820,7.56,bella
-5801830,13.36,bella
-5801840,13.36,bella
-5801880,6.95,bella
-5802160,7.18,bella
-5802190,7.18,bella
-5802300,3.70,bella
-5802310,3.70,bella
-5802320,3.70,bella
-5802330,3.70,bella
-5802340,4.99,bella
-5802350,4.99,bella
-5802360,4.99,bella
-5802370,4.99,bella
-5900010,4.54,bella
-5900020,4.54,bella
-5900030,4.54,bella
-5900040,4.54,bella
-5900050,4.54,bella
-5900060,4.54,bella
-5900070,4.54,bella
-5900080,4.54,bella
-6024310,16.22,bella
-6025230,7.77,bella
-6185140,7.54,bella
-6185280,7.54,bella
-6185400,7.25,bella
-6185410,7.25,bella
-6185560,4.50,bella
-6185720,7.24,bella
-6185740,7.24,bella
-6185840,9.01,bella
-6185850,9.01,bella
-6185900,7.24,bella
-6185910,6.22,bella
-6185920,6.22,bella
-6185930,6.22,bella
-6185950,6.10,bella
-6185960,6.22,bella
-6186080,6.22,bella
-6186090,6.22,bella
-6186130,6.13,bella
-6186160,9.46,bella
-6186190,9.46,bella
-6186200,9.46,bella
-6186260,6.74,bella
-6186360,7.61,bella
-6186370,6.78,bella
-6186380,6.78,bella
-6186410,6.78,bella
-6186420,6.78,bella
-6186430,6.78,bella
-6186450,6.78,bella
-6186460,6.78,bella
-6186470,6.78,bella
-6186480,6.78,bella
-6186490,5.11,bella
-6186500,4.96,bella
-6186520,4.96,bella
-6186530,4.96,bella
-6186570,6.78,bella
-6186590,6.78,bella
-6186600,6.78,bella
-6186620,6.78,bella
-6186670,9.86,bella
-6186690,7.40,bella
-6186700,7.40,bella
-6186810,7.40,bella
-6186910,5.27,bella
-6186920,5.27,bella
-6186930,5.27,bella
-6186940,6.85,bella
-6186950,6.85,bella
-6186960,6.85,bella
-6186980,6.82,bella
-6186990,6.82,bella
-6187000,6.61,bella
-6187010,6.61,bella
-6187020,6.61,bella
-6187030,5.95,bella
-6187040,5.95,bella
-6187050,5.95,bella
-6187060,5.95,bella
-6187070,5.95,bella
-6187080,5.95,bella
-6187090,5.95,bella
-6187100,5.95,bella
-6187110,5.95,bella
-6187120,7.88,bella
-6187130,7.88,bella
-6187140,5.56,bella
-6187150,5.56,bella
-6187160,7.88,bella
-6187170,5.95,bella
-6400010,5.34,bella
-6400030,8.13,bella
-6400060,7.94,bella
-7200600,5.94,bella
-7200610,5.94,bella
-7200620,6.30,bella
-7200630,6.30,bella
-7200640,6.30,bella
-7200650,6.30,bella
-7200660,6.30,bella
-7200670,4.75,bella
-7200680,4.75,bella
-7200690,5.03,bella
-7200700,5.03,bella
-7200710,5.03,bella
-7200720,5.03,bella
-7200730,5.03,bella
-7200750,8.53,bella
-7200770,8.53,bella
-7200790,9.05,bella
-7200800,9.05,bella
-7200820,7.99,bella
-7200830,7.99,bella
-7200840,8.48,bella
-7200850,7.99,bella
-7200880,14.68,bella
-7200890,14.68,bella
-7200900,14.68,bella
-7200910,14.68,bella
-7200920,14.68,bella
-7200930,14.68,bella
-7200940,14.68,bella
-7200950,14.68,bella
-7200960,16.18,bella
-7200970,16.18,bella
-7200980,16.18,bella
-7200990,16.18,bella
-7201000,14.68,bella
-7201010,14.68,bella
-7201020,14.68,bella
-7201030,14.68,bella
-7201040,16.17,bella
-7201050,16.17,bella
-7201060,21.62,bella
-7201080,21.62,bella
-7201090,21.62,bella
-7201100,21.62,bella
-7201110,21.62,bella
-7201130,21.62,bella
-7201140,13.76,bella
-7201150,13.76,bella
-7201160,13.76,bella
-7201170,9.29,bella
-7201180,9.29,bella
-7201190,9.29,bella
-7201200,5.68,bella
-7201210,5.68,bella
-7201220,5.68,bella
-7201230,8.61,bella
-7201240,8.61,bella
-7201250,6.07,bella
-7201260,6.07,bella
-7201270,9.86,bella
-7201280,9.86,bella
-7201290,9.86,bella
-7201300,14.61,bella
-7201310,16.38,bella
-7201320,16.38,bella
-7201330,16.38,bella
-7201340,23.37,bella
-7349090,5.00,bella
-7349120,5.20,bella
-7349130,5.20,bella
-7349140,5.10,bella
-7349160,2.97,bella
-7349180,4.78,bella
-7349190,4.68,bella
-7349200,4.68,bella
-7349210,5.78,bella
-7349260,4.88,bella
-7349270,4.29,bella
-7349280,4.29,bella
-7349290,4.88,bella
-7349300,4.88,bella
-7349310,5.87,bella
-7349320,5.60,bella
-7349360,6.27,bella
-7349370,5.70,bella
-7349380,5.70,bella
-7349400,6.27,bella
-7349410,6.07,bella
-7349420,5.50,bella
-7349430,5.50,bella
-7349440,6.07,bella
-7349450,6.07,bella
-7349460,4.96,bella
-7349470,4.96,bella
-7349480,4.22,bella
-7349490,4.96,bella
-7349500,4.96,bella
-7349510,4.96,bella
-7349530,5.62,bella
-7349540,5.62,bella
-7349550,5.62,bella
-7349560,5.62,bella
-7349570,5.62,bella
-7349580,5.62,bella
-7349590,5.62,bella
-7349600,5.62,bella
-7349610,5.28,bella
-7349620,5.28,bella
-7349630,5.28,bella
-7349640,5.28,bella
-7349650,5.28,bella
-7349660,5.28,bella
-7349670,5.28,bella
-7349680,5.28,bella
-7349690,5.62,bella
-7349700,5.62,bella
-7349710,5.62,bella
-7349720,5.62,bella
-7349740,9.27,bella
-7349750,9.27,bella
-7349770,3.85,bella
-7349780,3.85,bella
-7349790,5.43,bella
-7349800,5.43,bella
-7349810,3.43,bella
-7349820,3.43,bella
-7349830,3.43,bella
-7349840,5.14,bella
-7349850,5.14,bella
-7349860,5.14,bella
-7349870,3.43,bella
-7349880,3.43,bella
-7349900,3.87,bella
-7349910,3.87,bella
-7349920,8.10,bella
-7349930,5.72,bella
-7349940,3.90,bella
-7349950,3.90,bella
-7349960,5.72,bella
-7349970,4.05,bella
-7349980,5.72,bella
-7349990,4.05,bella
-7350040,5.47,bella
-7350050,5.47,bella
-7350060,5.32,bella
-7350070,5.32,bella
-7350080,8.33,bella
-7350090,8.33,bella
-7350100,7.57,bella
-7350110,3.57,bella
-7350120,3.57,bella
-7350130,3.57,bella
-7350140,3.57,bella
-7350150,3.57,bella
-7400010,4.80,bella
-7400020,4.80,bella
-7400030,4.80,bella
-7400040,4.80,bella
-7400050,7.15,bella
-7400060,7.15,bella
-7400070,7.15,bella
-7400080,7.15,bella
-7400090,5.66,bella
-7400100,5.66,bella
-7400110,5.66,bella
-7400120,5.66,bella
-7400130,5.66,bella
-7400140,5.49,bella
-7400150,5.49,bella
-7400160,5.49,bella
-7400170,5.49,bella
-7400180,7.25,bella
-7400190,7.25,bella
-7400200,7.25,bella
-7400210,7.25,bella
-7400220,5.73,bella
-7400230,5.73,bella
-7400240,5.73,bella
-7400250,5.73,bella
-7400260,5.26,bella
-7400270,5.26,bella
-7400280,5.26,bella
-7400290,5.26,bella
-7400300,5.26,bella
-7400310,5.49,bella
-7510320,8.80,bella
-7510830,7.59,bella
-7510850,7.59,bella
-7510860,7.59,bella
-7700010,6.20,bella
-7700020,6.20,bella
-7700030,6.20,bella
-7700040,6.20,bella
-7700050,5.17,bella
-7700060,5.17,bella
-7700070,5.17,bella
-7700080,5.17,bella
-7700090,8.60,bella
-7700100,8.60,bella
-7700110,8.60,bella
-7700120,8.60,bella
-7700130,4.91,bella
-7700140,4.91,bella
-7700150,4.91,bella
-7700160,4.91,bella
-7700170,6.61,bella
-7700180,6.61,bella
-7700190,6.61,bella
-7700200,6.61,bella
-7700210,6.66,bella
-7700220,6.66,bella
-7700230,6.66,bella
-7700240,6.66,bella
-7700250,6.66,bella
-7700260,9.21,bella
-7700270,9.21,bella
-7700280,9.21,bella
-7700290,9.21,bella
-7700300,9.21,bella
-7800040,6.00,bella
-7800050,6.00,bella
-7800060,6.00,bella
-7800070,6.00,bella
-7800080,7.28,bella
-7800090,7.28,bella
-7800100,7.28,bella
-7800110,7.28,bella
-7800350,6.57,bella
-7800360,6.57,bella
-7800530,11.16,bella
-7800540,14.77,bella
-7800550,10.14,bella
-7800560,7.93,bella
-7800570,7.93,bella
-7800580,10.14,bella
-7800680,13.79,bella
-7800690,15.43,bella
-7800700,13.79,bella
-7800710,8.29,bella
-7800720,9.07,bella
-7800730,8.29,bella
-7800740,4.08,bella
-7800750,4.08,bella
-7800760,4.08,bella
-7800770,4.08,bella
-7800780,4.08,bella
-7800790,4.08,bella
-7900090,2.86,bella
-7900100,2.86,bella
-7900130,2.86,bella
-7900140,2.86,bella
+P80231,5.13,omega
+P80238,3.71,omega
+P80242,0.95,omega
+P80244,4.95,omega
+P80254,2.86,omega
+P80255,2.86,omega
+P80259,4.54,omega
+P80286,3.51,omega
+P80289,1.87,omega
+P80292,1.01,omega
+P80294,4.35,omega
+P80295,3.71,omega
+P80297,3.71,omega
+P83181,4.74,omega
+P83182,2.28,omega
+P83183,3.01,omega
+P83184,1.59,omega
+P83185,0.99,omega
+P83186,0.77,omega
+P83187,0.97,omega
+P83188,0.73,omega
+P83189,2.35,omega
+P83190,1.38,omega
+P83192,0.77,omega
+P83193,0.99,omega
+P83195,2.35,omega
+P83196,1.38,omega
+P83198,3.12,omega
+P83199,1.36,omega
+P83200,2.73,omega
+P83201,1.42,omega
+P83202,1.87,omega
+P83204,3.25,omega
+P83205,3.25,omega
+P83208,3.64,omega
+P83210,3.64,omega
+P83211,2.13,omega
+P83212,2.13,omega
+P83214,2.13,omega
+P83215,2.39,omega
+P83217,2.39,omega
+P83218,2.39,omega
+P83220,2.45,omega
+P83221,2.45,omega
+P83222,2.03,omega
+P83223,2.03,omega
+P83224,2.03,omega
+P83225,2.03,omega
+P83241,2.52,omega
+P83242,1.59,omega
+P83243,1.59,omega
+P83244,2.13,omega
+P83245,2.13,omega
+P83246,2.13,omega
+P83248,1.61,omega
+P83249,1.61,omega
+P83250,1.61,omega
+P83251,1.61,omega
+P83261,1.98,omega
+P83262,1.33,omega
+P83263,1.33,omega
+P83266,3.64,omega
+P83267,3.64,omega
+P83271,1.64,omega
+P83272,1.64,omega
+P83274,1.75,omega
+P83276,3.40,omega
+P83280,2.15,omega
+P83283,2.67,omega
+P83284,1.96,omega
+P83285,1.96,omega
+P83286,1.59,omega
+P83287,1.59,omega
+P83289,2.71,omega
+P83290,2.71,omega
+P83292,1.70,omega
+P83293,1.70,omega
+P83326,3.73,omega
+P83327,2.69,omega
+P83329,2.11,omega
+P83330,2.11,omega
+P83331,2.11,omega
+P83332,2.11,omega
+P83333,1.42,omega
+P83334,1.42,omega
+P83335,1.42,omega
+P83336,1.42,omega
+P83337,2.45,omega
+P83344,1.49,omega
+P83396,3.49,omega
+P83397,1.87,omega
+P83398,0.91,omega
+P83401,3.62,omega
+P83402,3.62,omega
+P83404,1.29,omega
+P83405,3.70,omega
+P83406,3.70,omega
+P83408,2.56,omega
+P83409,2.56,omega
+P83420,1.66,omega
+P83421,1.66,omega
+P83426,2.37,omega
+P83427,1.87,omega
+P83428,1.87,omega
+P83429,1.87,omega
+P83430,2.56,omega
+P83431,1.42,omega
+P83434,1.42,omega
+P83435,1.94,omega
+P83507,3.04,omega
+P83508,2.93,omega
+P83526,2.05,omega
+P83527,2.05,omega
+P83542,1.34,omega
+P83543,1.34,omega
+P83604,4.29,omega
+P83605,4.29,omega
+P83606,2.18,omega
+P83607,2.18,omega
+P83608,2.18,omega
+P83611,2.97,omega
+P83612,2.97,omega
+P83613,1.81,omega
+P83614,1.81,omega
+P83615,1.81,omega
+P83616,1.14,omega
+P83617,1.14,omega
+P83618,1.14,omega
+P83624,1.79,omega
+P83701,1.47,omega
+P83788,2.05,omega
+P83789,0.97,omega
+P83791,2.67,omega
+P83792,3.64,omega
+P83814,0.90,omega
+P83815,1.40,omega
+P83816,2.95,omega
+P83817,0.90,omega
+P83818,1.40,omega
+P83819,2.95,omega
+P83820,0.90,omega
+P83821,1.40,omega
+P83822,2.95,omega
+P83823,0.90,omega
+P83824,1.40,omega
+P83825,2.95,omega
+P83847,2.11,omega
+P83848,2.11,omega
+P83849,2.50,omega
+P83850,1.44,omega
+P83851,1.68,omega
+P83874,3.53,omega
+P83875,2.52,omega
+P83876,1.47,omega
+P83877,1.06,omega
+P83914,2.89,omega
+P83915,2.89,omega
+P83916,3.58,omega
+P83917,3.58,omega
+P83918,3.58,omega
+P83919,3.58,omega
+P83920,1.90,omega
+P83921,1.90,omega
+P83922,1.90,omega
+P83923,1.90,omega
+P83924,1.40,omega
+P83925,1.40,omega
+P83926,1.40,omega
+P83927,1.40,omega
+P83928,2.89,omega
+P83929,1.38,omega
+P83930,0.97,omega
+P83971,1.34,omega
+P83972,1.90,omega
+P83973,1.01,omega
+P83974,3.01,omega
+P83975,1.18,omega
+P83986,2.11,omega
+P84043,2.05,omega
+P84044,2.05,omega
+P84104,5.75,omega
+P84105,5.75,omega
+P84106,5.75,omega
+P84169,0.77,omega
+P84170,0.97,omega
+P84171,1.38,omega
+P84172,2.11,omega
+P84173,1.42,omega
+232208,7.00,bella
+511087,4.16,bella
+511112,3.96,bella
+511209,5.66,bella
+511210,5.66,bella
+511211,5.66,bella
+511212,5.66,bella
+511216,4.46,bella
+511217,5.61,bella
+511221,4.27,bella
+520193,8.34,bella
+520195,8.34,bella
+520196,7.42,bella
+520198,7.42,bella
+520199,7.84,bella
+520200,7.42,bella
+520201,10.58,bella
+520202,10.38,bella
+520203,10.58,bella
+520205,10.58,bella
+520215,5.25,bella
+520216,5.25,bella
+520217,5.25,bella
+520218,5.25,bella
+520219,5.25,bella
+520220,5.25,bella
+520221,5.25,bella
+520224,5.25,bella
+520225,5.25,bella
+520226,5.25,bella
+520227,5.25,bella
+520233,9.08,bella
+520234,9.08,bella
+520235,9.08,bella
+520236,9.08,bella
+520237,9.08,bella
+520238,9.08,bella
+520239,8.82,bella
+520243,8.82,bella
+520244,9.47,bella
+520245,9.47,bella
+520246,9.47,bella
+520247,9.47,bella
+520248,9.47,bella
+520249,9.47,bella
+520250,9.47,bella
+520251,11.98,bella
+520252,9.14,bella
+520257,9.07,bella
+520258,9.07,bella
+520259,9.07,bella
+520260,9.07,bella
+520261,9.07,bella
+520262,9.07,bella
+520263,9.96,bella
+520264,9.96,bella
+520266,9.96,bella
+520267,9.96,bella
+520268,7.50,bella
+520269,7.50,bella
+520270,7.65,bella
+520271,7.65,bella
+520272,7.65,bella
+520273,23.26,bella
+520274,18.19,bella
+520275,18.19,bella
+520276,23.26,bella
+520277,17.48,bella
+520280,14.02,bella
+520282,11.02,bella
+520286,9.48,bella
+520292,9.61,bella
+520293,9.61,bella
+520294,9.61,bella
+520295,9.61,bella
+520296,9.61,bella
+520297,9.61,bella
+520298,9.61,bella
+520299,9.61,bella
+520300,6.44,bella
+520301,6.44,bella
+520302,6.44,bella
+520303,6.44,bella
+520304,6.44,bella
+520305,6.44,bella
+520306,11.40,bella
+520307,11.40,bella
+520308,11.40,bella
+520309,11.40,bella
+520310,11.40,bella
+520311,11.40,bella
+520312,6.31,bella
+520313,6.31,bella
+520314,6.31,bella
+520315,6.31,bella
+520316,6.31,bella
+520317,6.31,bella
+520318,12.45,bella
+520319,9.02,bella
+520320,12.45,bella
+520321,15.04,bella
+520322,14.60,bella
+520323,12.45,bella
+520324,9.83,bella
+520325,6.90,bella
+520326,9.83,bella
+520327,11.74,bella
+520329,9.83,bella
+520330,10.18,bella
+520331,9.29,bella
+520332,10.18,bella
+520333,12.17,bella
+520334,12.17,bella
+520335,10.18,bella
+520336,5.86,bella
+520337,4.32,bella
+520338,5.86,bella
+520339,7.30,bella
+520340,7.30,bella
+520341,5.86,bella
+520342,3.98,bella
+520343,3.98,bella
+520344,3.98,bella
+520345,3.98,bella
+520346,3.98,bella
+520347,9.42,bella
+520360,6.25,bella
+520362,6.25,bella
+520363,6.25,bella
+520364,6.25,bella
+520365,6.25,bella
+520366,6.07,bella
+520368,6.25,bella
+520369,6.07,bella
+520370,6.25,bella
+520371,6.25,bella
+520372,6.25,bella
+520373,6.25,bella
+520374,6.25,bella
+520375,6.25,bella
+520376,12.02,bella
+520377,12.02,bella
+520378,11.67,bella
+520379,12.02,bella
+520380,15.30,bella
+520381,12.97,bella
+520382,12.97,bella
+520383,11.37,bella
+520384,11.37,bella
+520385,14.47,bella
+520386,14.47,bella
+520387,14.47,bella
+520388,11.86,bella
+520389,11.86,bella
+520390,11.86,bella
+520391,11.25,bella
+520392,11.25,bella
+520393,11.25,bella
+520394,11.25,bella
+520395,11.25,bella
+520396,7.38,bella
+520397,7.38,bella
+520398,7.38,bella
+520399,9.29,bella
+520400,7.38,bella
+520401,7.38,bella
+520402,7.38,bella
+520403,7.38,bella
+520404,7.38,bella
+520405,7.38,bella
+520406,10.30,bella
+520407,10.30,bella
+520408,10.30,bella
+520409,10.30,bella
+520410,10.30,bella
+520411,10.60,bella
+520412,10.60,bella
+520413,10.60,bella
+520414,10.60,bella
+520415,10.60,bella
+520416,6.06,bella
+520417,6.06,bella
+520418,6.06,bella
+520419,6.06,bella
+520420,6.06,bella
+520421,10.60,bella
+520422,10.60,bella
+520423,10.60,bella
+520424,10.60,bella
+520425,10.60,bella
+520426,6.68,bella
+520427,6.68,bella
+520428,6.68,bella
+520429,6.68,bella
+520430,6.68,bella
+520431,16.37,bella
+520432,16.37,bella
+520433,16.37,bella
+520434,16.37,bella
+520435,10.75,bella
+520436,10.75,bella
+520437,10.75,bella
+520438,10.75,bella
+520439,10.75,bella
+520440,10.75,bella
+520441,14.20,bella
+520442,14.20,bella
+520443,14.20,bella
+520444,14.20,bella
+520445,14.20,bella
+520446,9.86,bella
+520447,9.86,bella
+520448,9.86,bella
+520449,9.86,bella
+520450,9.86,bella
+520451,17.06,bella
+520452,17.06,bella
+520453,17.06,bella
+520454,17.06,bella
+520455,7.09,bella
+520456,7.09,bella
+520457,7.09,bella
+520458,7.09,bella
+520459,10.06,bella
+520460,10.06,bella
+520461,10.06,bella
+520462,10.06,bella
+520463,7.77,bella
+520464,7.77,bella
+520465,7.77,bella
+520466,7.77,bella
+520467,15.21,bella
+520468,15.21,bella
+520469,15.21,bella
+520470,24.34,bella
+520471,24.34,bella
+520472,24.34,bella
+520473,22.51,bella
+520474,22.51,bella
+520475,10.46,bella
+520476,10.46,bella
+520477,10.46,bella
+520478,10.46,bella
+520479,10.46,bella
+520480,11.03,bella
+520481,11.03,bella
+520482,7.62,bella
+520483,8.29,bella
+520484,7.62,bella
+520485,7.62,bella
+520486,7.62,bella
+520487,7.62,bella
+520488,7.62,bella
+520489,7.62,bella
+520490,16.63,bella
+520491,16.63,bella
+520492,16.63,bella
+520493,19.61,bella
+520494,19.61,bella
+520495,19.61,bella
+520496,7.38,bella
+520497,7.38,bella
+520498,7.38,bella
+520499,7.38,bella
+520500,7.38,bella
+520501,7.38,bella
+520503,7.38,bella
+520504,7.38,bella
+520505,7.38,bella
+520506,7.38,bella
+520507,7.38,bella
+520508,7.38,bella
+520509,9.17,bella
+520510,9.17,bella
+520511,9.17,bella
+520512,9.17,bella
+520513,20.09,bella
+520514,20.09,bella
+520515,20.09,bella
+520516,20.09,bella
+520517,20.09,bella
+520518,20.09,bella
+520519,20.09,bella
+520520,20.09,bella
+520521,17.34,bella
+520522,17.34,bella
+520523,17.34,bella
+520524,17.34,bella
+520525,17.34,bella
+520526,17.34,bella
+520527,17.34,bella
+520528,17.34,bella
+520529,14.19,bella
+520530,14.19,bella
+520531,18.17,bella
+520532,14.19,bella
+520533,14.19,bella
+520534,18.17,bella
+520535,9.58,bella
+520536,9.58,bella
+520537,9.58,bella
+520538,9.58,bella
+520539,9.58,bella
+520540,9.58,bella
+520541,9.58,bella
+520542,9.58,bella
+520543,9.58,bella
+520544,9.58,bella
+520545,9.58,bella
+520546,9.58,bella
+520547,26.70,bella
+520548,20.69,bella
+520549,20.69,bella
+520550,14.38,bella
+520551,14.38,bella
+520552,18.41,bella
+520553,14.38,bella
+520554,12.17,bella
+520555,9.58,bella
+520556,9.58,bella
+520557,9.58,bella
+520558,18.43,bella
+520559,18.43,bella
+520560,14.39,bella
+554552,6.00,bella
+554553,6.00,bella
+554557,13.99,bella
+554558,13.99,bella
+554564,13.99,bella
+554565,13.99,bella
+554566,13.99,bella
+554572,8.21,bella
+554573,8.21,bella
+554575,8.21,bella
+554576,8.21,bella
+554577,8.21,bella
+554614,4.96,bella
+554622,3.14,bella
+554623,5.16,bella
+554624,4.64,bella
+554625,5.16,bella
+554626,5.16,bella
+554627,5.16,bella
+554628,5.16,bella
+554629,4.02,bella
+554630,4.02,bella
+554631,4.02,bella
+554632,4.02,bella
+554633,4.02,bella
+554634,4.02,bella
+554635,5.76,bella
+554636,5.76,bella
+554637,5.76,bella
+554638,5.76,bella
+554639,5.76,bella
+554640,5.76,bella
+554641,5.76,bella
+554642,5.76,bella
+554643,5.76,bella
+554644,5.76,bella
+554645,5.76,bella
+554646,5.76,bella
+554647,5.76,bella
+554648,5.76,bella
+554649,5.76,bella
+554650,5.76,bella
+554651,10.55,bella
+554652,10.55,bella
+554653,10.55,bella
+554654,11.22,bella
+554655,11.22,bella
+554656,11.22,bella
+554663,7.27,bella
+554665,7.27,bella
+554669,7.27,bella
+554670,7.06,bella
+554672,11.61,bella
+554675,9.42,bella
+554676,9.42,bella
+554677,9.42,bella
+554678,9.42,bella
+554679,14.66,bella
+554680,14.66,bella
+554681,14.66,bella
+554682,14.66,bella
+554683,12.39,bella
+554684,12.39,bella
+554685,12.39,bella
+554686,7.43,bella
+554687,7.43,bella
+554688,7.43,bella
+554689,7.10,bella
+554690,7.10,bella
+554691,7.10,bella
+554692,6.66,bella
+554693,6.66,bella
+554694,6.66,bella
+554695,6.66,bella
+554696,11.90,bella
+554697,11.90,bella
+554698,11.90,bella
+554699,11.90,bella
+554700,10.46,bella
+554701,10.46,bella
+554702,10.46,bella
+554703,10.46,bella
+554704,12.50,bella
+554705,12.50,bella
+554706,5.47,bella
+554707,5.47,bella
+554708,5.59,bella
+554709,5.59,bella
+554710,5.59,bella
+554711,5.59,bella
+554712,5.59,bella
+554713,5.59,bella
+554714,5.59,bella
+554715,5.59,bella
+554716,5.59,bella
+564310,11.70,bella
+570005,6.01,bella
+570006,6.01,bella
+570007,6.01,bella
+570008,6.01,bella
+570009,3.83,bella
+570010,3.83,bella
+570011,3.83,bella
+570012,3.83,bella
+570013,3.64,bella
+570014,3.64,bella
+570015,3.64,bella
+570016,3.64,bella
+580107,6.31,bella
+580109,6.31,bella
+580127,6.01,bella
+580130,6.31,bella
+580146,5.72,bella
+580159,5.73,bella
+580177,7.06,bella
+580178,7.06,bella
+580179,5.22,bella
+580180,5.22,bella
+580181,7.56,bella
+580182,7.56,bella
+580183,13.36,bella
+580184,13.36,bella
+580188,6.95,bella
+580216,7.18,bella
+580219,7.18,bella
+580230,3.70,bella
+580231,3.70,bella
+580232,3.70,bella
+580233,3.70,bella
+580234,4.99,bella
+580235,4.99,bella
+580236,4.99,bella
+580237,4.99,bella
+590001,4.54,bella
+590002,4.54,bella
+590003,4.54,bella
+590004,4.54,bella
+590005,4.54,bella
+590006,4.54,bella
+590007,4.54,bella
+590008,4.54,bella
+602431,16.22,bella
+602523,7.77,bella
+618514,7.54,bella
+618528,7.54,bella
+618540,7.25,bella
+618541,7.25,bella
+618556,4.50,bella
+618572,7.24,bella
+618574,7.24,bella
+618584,9.01,bella
+618585,9.01,bella
+618590,7.24,bella
+618591,6.22,bella
+618592,6.22,bella
+618593,6.22,bella
+618595,6.10,bella
+618596,6.22,bella
+618608,6.22,bella
+618609,6.22,bella
+618613,6.13,bella
+618616,9.46,bella
+618619,9.46,bella
+618620,9.46,bella
+618626,6.74,bella
+618636,7.61,bella
+618637,6.78,bella
+618638,6.78,bella
+618641,6.78,bella
+618642,6.78,bella
+618643,6.78,bella
+618645,6.78,bella
+618646,6.78,bella
+618647,6.78,bella
+618648,6.78,bella
+618649,5.11,bella
+618650,4.96,bella
+618652,4.96,bella
+618653,4.96,bella
+618657,6.78,bella
+618659,6.78,bella
+618660,6.78,bella
+618662,6.78,bella
+618667,9.86,bella
+618669,7.40,bella
+618670,7.40,bella
+618681,7.40,bella
+618691,5.27,bella
+618692,5.27,bella
+618693,5.27,bella
+618694,6.85,bella
+618695,6.85,bella
+618696,6.85,bella
+618698,6.82,bella
+618699,6.82,bella
+618700,6.61,bella
+618701,6.61,bella
+618702,6.61,bella
+618703,5.95,bella
+618704,5.95,bella
+618705,5.95,bella
+618706,5.95,bella
+618707,5.95,bella
+618708,5.95,bella
+618709,5.95,bella
+618710,5.95,bella
+618711,5.95,bella
+618712,7.88,bella
+618713,7.88,bella
+618714,5.56,bella
+618715,5.56,bella
+618716,7.88,bella
+618717,5.95,bella
+640001,5.34,bella
+640003,8.13,bella
+640006,7.94,bella
+720060,5.94,bella
+720061,5.94,bella
+720062,6.30,bella
+720063,6.30,bella
+720064,6.30,bella
+720065,6.30,bella
+720066,6.30,bella
+720067,4.75,bella
+720068,4.75,bella
+720069,5.03,bella
+720070,5.03,bella
+720071,5.03,bella
+720072,5.03,bella
+720073,5.03,bella
+720075,8.53,bella
+720077,8.53,bella
+720079,9.05,bella
+720080,9.05,bella
+720082,7.99,bella
+720083,7.99,bella
+720084,8.48,bella
+720085,7.99,bella
+720088,14.68,bella
+720089,14.68,bella
+720090,14.68,bella
+720091,14.68,bella
+720092,14.68,bella
+720093,14.68,bella
+720094,14.68,bella
+720095,14.68,bella
+720096,16.18,bella
+720097,16.18,bella
+720098,16.18,bella
+720099,16.18,bella
+720100,14.68,bella
+720101,14.68,bella
+720102,14.68,bella
+720103,14.68,bella
+720104,16.17,bella
+720105,16.17,bella
+720106,21.62,bella
+720108,21.62,bella
+720109,21.62,bella
+720110,21.62,bella
+720111,21.62,bella
+720113,21.62,bella
+720114,13.76,bella
+720115,13.76,bella
+720116,13.76,bella
+720117,9.29,bella
+720118,9.29,bella
+720119,9.29,bella
+720120,5.68,bella
+720121,5.68,bella
+720122,5.68,bella
+720123,8.61,bella
+720124,8.61,bella
+720125,6.07,bella
+720126,6.07,bella
+720127,9.86,bella
+720128,9.86,bella
+720129,9.86,bella
+720130,14.61,bella
+720131,16.38,bella
+720132,16.38,bella
+720133,16.38,bella
+720134,23.37,bella
+734909,5.00,bella
+734912,5.20,bella
+734913,5.20,bella
+734914,5.10,bella
+734916,2.97,bella
+734918,4.78,bella
+734919,4.68,bella
+734920,4.68,bella
+734921,5.78,bella
+734926,4.88,bella
+734927,4.29,bella
+734928,4.29,bella
+734929,4.88,bella
+734930,4.88,bella
+734931,5.87,bella
+734932,5.60,bella
+734936,6.27,bella
+734937,5.70,bella
+734938,5.70,bella
+734940,6.27,bella
+734941,6.07,bella
+734942,5.50,bella
+734943,5.50,bella
+734944,6.07,bella
+734945,6.07,bella
+734946,4.96,bella
+734947,4.96,bella
+734948,4.22,bella
+734949,4.96,bella
+734950,4.96,bella
+734951,4.96,bella
+734953,5.62,bella
+734954,5.62,bella
+734955,5.62,bella
+734956,5.62,bella
+734957,5.62,bella
+734958,5.62,bella
+734959,5.62,bella
+734960,5.62,bella
+734961,5.28,bella
+734962,5.28,bella
+734963,5.28,bella
+734964,5.28,bella
+734965,5.28,bella
+734966,5.28,bella
+734967,5.28,bella
+734968,5.28,bella
+734969,5.62,bella
+734970,5.62,bella
+734971,5.62,bella
+734972,5.62,bella
+734974,9.27,bella
+734975,9.27,bella
+734977,3.85,bella
+734978,3.85,bella
+734979,5.43,bella
+734980,5.43,bella
+734981,3.43,bella
+734982,3.43,bella
+734983,3.43,bella
+734984,5.14,bella
+734985,5.14,bella
+734986,5.14,bella
+734987,3.43,bella
+734988,3.43,bella
+734990,3.87,bella
+734991,3.87,bella
+734992,8.10,bella
+734993,5.72,bella
+734994,3.90,bella
+734995,3.90,bella
+734996,5.72,bella
+734997,4.05,bella
+734998,5.72,bella
+734999,4.05,bella
+735004,5.47,bella
+735005,5.47,bella
+735006,5.32,bella
+735007,5.32,bella
+735008,8.33,bella
+735009,8.33,bella
+735010,7.57,bella
+735011,3.57,bella
+735012,3.57,bella
+735013,3.57,bella
+735014,3.57,bella
+735015,3.57,bella
+740001,4.80,bella
+740002,4.80,bella
+740003,4.80,bella
+740004,4.80,bella
+740005,7.15,bella
+740006,7.15,bella
+740007,7.15,bella
+740008,7.15,bella
+740009,5.66,bella
+740010,5.66,bella
+740011,5.66,bella
+740012,5.66,bella
+740013,5.66,bella
+740014,5.49,bella
+740015,5.49,bella
+740016,5.49,bella
+740017,5.49,bella
+740018,7.25,bella
+740019,7.25,bella
+740020,7.25,bella
+740021,7.25,bella
+740022,5.73,bella
+740023,5.73,bella
+740024,5.73,bella
+740025,5.73,bella
+740026,5.26,bella
+740027,5.26,bella
+740028,5.26,bella
+740029,5.26,bella
+740030,5.26,bella
+740031,5.49,bella
+751032,8.80,bella
+751083,7.59,bella
+751085,7.59,bella
+751086,7.59,bella
+770001,6.20,bella
+770002,6.20,bella
+770003,6.20,bella
+770004,6.20,bella
+770005,5.17,bella
+770006,5.17,bella
+770007,5.17,bella
+770008,5.17,bella
+770009,8.60,bella
+770010,8.60,bella
+770011,8.60,bella
+770012,8.60,bella
+770013,4.91,bella
+770014,4.91,bella
+770015,4.91,bella
+770016,4.91,bella
+770017,6.61,bella
+770018,6.61,bella
+770019,6.61,bella
+770020,6.61,bella
+770021,6.66,bella
+770022,6.66,bella
+770023,6.66,bella
+770024,6.66,bella
+770025,6.66,bella
+770026,9.21,bella
+770027,9.21,bella
+770028,9.21,bella
+770029,9.21,bella
+770030,9.21,bella
+780004,6.00,bella
+780005,6.00,bella
+780006,6.00,bella
+780007,6.00,bella
+780008,7.28,bella
+780009,7.28,bella
+780010,7.28,bella
+780011,7.28,bella
+780035,6.57,bella
+780036,6.57,bella
+780053,11.16,bella
+780054,14.77,bella
+780055,10.14,bella
+780056,7.93,bella
+780057,7.93,bella
+780058,10.14,bella
+780068,13.79,bella
+780069,15.43,bella
+780070,13.79,bella
+780071,8.29,bella
+780072,9.07,bella
+780073,8.29,bella
+780074,4.08,bella
+780075,4.08,bella
+780076,4.08,bella
+780077,4.08,bella
+780078,4.08,bella
+780079,4.08,bella
+790009,2.86,bella
+790010,2.86,bella
+790013,2.86,bella
+790014,2.86,bella
 220SATGRA,1.65,global metal
 220SATSIL,1.54,global metal
 431BRBLA,2.75,global metal
@@ -3787,8 +5169,6 @@ E84059,1.88,omega
 81SATCOP,1.39,global metal
 81SATGOL,1.42,global metal
 81SATPEW,1.39,global metal
-81SATGOL,1.19,global metal
-81SATPEW,1.37,global metal
 81SATPLA,1.37,global metal
 81SATSIL,1.18,global metal
 81SEAGRE,1.48,global metal
@@ -3828,248 +5208,265 @@ E84059,1.88,omega
 92SATSIL,2.05,global metal
 93BRGOL,2.32,global metal
 93BRSIL,2.11,global metal
-81NEWBLU,1.48,global metal
-81PER,1.48,global metal
-81SATBLA,1.44,global metal
-81SATCOP,1.37,global metal
 220SATBLA,1.61,global metal
-A107,3.81,global wood
-A129,2.41,global wood
-A139,3.57,global wood
-A152,4.17,global wood
-A291,5.42,global wood
-A292,5.42,global wood
-A408,3.05,global wood
-A731,8.85,global wood
-A801,2.85,global wood
-A901,2.85,global wood
-A1000,13.25,global wood
-A1001,13.25,global wood
-A1002,13.25,global wood
-A1004,13.25,global wood
-A1005,13.25,global wood
-A1006,13.25,global wood
-A 1015,13.25,global wood
-A1027,7.6,global wood
-A1028,7.6,global wood
-A1030,7.6,global wood
-A1031,7.6,global wood
-A1041,12.43,global wood
-A1042,12.43,global wood
-A1044,12.43,global wood
-A1057,12.43,global wood
-A1058,12.43,global wood
-A1059,12.43,global wood
-A1062,12.43,global wood
-A1063,12.43,global wood
-A1090,13.25,global wood
-A1091,13.25,global wood
-A1092,13.25,global wood
-A1093,13.25,global wood
-A1094,13.25,global wood
-A1095,13.25,global wood
-A1140,13.25,global wood
-A1166,9.96,global wood
-A1167,9.96,global wood
-A1168,9.96,global wood
-A1206,9.96,global wood
-A1208,13.25,global wood
-A1221,12.35,global wood
-A1267,13.25,global wood
-A1270,13.25,global wood
-A1273,13.25,global wood
-A1274,13.25,global wood
-A1278,9.75,global wood
-A1279,9.75,global wood
-A1280,9.75,global wood
-A1281,9.75,global wood
-A1340,9.96,global wood
-A1342,9.96,global wood
-A1343,9.96,global wood
-A1390,9.96,global wood
-A1391,9.96,global wood
-A1706,3.4,global wood
-A1707,3.4,global wood
-A1708,3.4,global wood
-A1709,3.4,global wood
-A1710,3.4,global wood
-A1711,3.4,global wood
-A2193,5.75,global wood
-A2194,5.75,global wood
-A2195,5.75,global wood
-A2196,5.75,global wood
-A2400,3.17,global wood
-A2410,3.17,global wood
-A2440,3.73,global wood
-A2581,5.22,global wood
-A2582,5.22,global wood
-A2583,5.22,global wood
-A2584,5.22,global wood
-A2610,4.85,global wood
-A2611,4.85,global wood
-A2652,4.85,global wood
-A2663,4.85,global wood
-A2671,4.85,global wood
-A2674,4.85,global wood
-A2681,4.85,global wood
-A2713,8.75,global wood
-A2913,6.58,global wood
-A3262,3.97,global wood
-A3272,3.97,global wood
-A3331,4.33,global wood
-A3337,4.33,global wood
-A3385,4.33,global wood
-A3402,4.12,global wood
-A3405,6.0,global wood
-A3433,3.58,global wood
-A3434,3.58,global wood
-A3435,3.58,global wood
-A3436,3.58,global wood
-A3940,6.85,global wood
-A4210,7.07,global wood
-A4215,7.07,global wood
-A4290,7.07,global wood
-A4291,6.11,global wood
-A4611,6.55,global wood
-A4612,6.55,global wood
-A4613,6.55,global wood
-A4864,5.37,global wood
-A4867,5.37,global wood
-A4874,5.37,global wood
-A4879,5.37,global wood
-A5680,6.25,global wood
-A5681,6.25,global wood
-A5683,6.25,global wood
-A5990,4.49,global wood
-A5991,4.49,global wood
-A5992,4.49,global wood
-A5993,4.57,global wood
-A8855,4.08,global wood
-B133,7.61,global wood
-B134,7.61,global wood
-B137,4.21,global wood
-B149,5.45,global wood
-B157,4.85,global wood
-B158,4.85,global wood
-B174,3.57,global wood
-B300,4.25,global wood
-B301,4.25,global wood
-B302,4.25,global wood
-B430,9.02,global wood
-B431,9.02,global wood
-B601,8.48,global wood
-B1101,7.39,global wood
-B1102,7.39,global wood
-B1103,7.39,global wood
-B1104,7.39,global wood
-B1180,4.01,global wood
-B1326,11.38,global wood
-B1328,11.38,global wood
-B1330,11.38,global wood
-B1331,11.38,global wood
-B1332,11.38,global wood
-B1334,11.38,global wood
-B1336,11.38,global wood
-B1335,11.38,global wood
-B1337,11.38,global wood
-B1750,3.81,global wood
-B1813,9.38,global wood
-B2101,6.77,global wood
-B2102,6.77,global wood
-B2460,5.23,global wood
-B2470,4.25,global wood
-B2485,5.17,global wood
-B2660,9.5,global wood
-B2950,8.2,global wood
-B3295,4.81,global wood
-B3296,4.81,global wood
-B3297,4.81,global wood
-B3298,4.81,global wood
-B3452,4.65,global wood
-B3802,5.14,global wood
-B3930,8.42,global wood
-B3952,9.15,global wood
-B4034,4.46,global wood
-B4054,4.46,global wood
-B4068,4.46,global wood
-B4210,8.75,global wood
-B4215,8.75,global wood
-B4284,6.5,global wood
-B4285,6.5,global wood
-B4286,6.5,global wood
-B4290,7.95,global wood
-B4291,7.95,global wood
-B5221,3.85,global wood
-B5224,3.85,global wood
-B6222,6.33,global wood
-B6223,6.33,global wood
-B6224,6.33,global wood
-B6225,6.33,global wood
-B6650,7.6,global wood
-B6652,7.6,global wood
-B6653,7.6,global wood
-B8235,4.64,global wood
-B8240,5.09,global wood
-C119,6.61,global wood
-C191,9.72,global wood
-C192,8.85,global wood
-C196,6.61,global wood
-C501,10.85,global wood
-C1360,7.18,global wood
-C403G,7.01,global wood
-C2432,7.37,global wood
-C3692,6.45,global wood
-C3804,9.1,global wood
-C4701,10.62,global wood
-C5302,7.23,global wood
-C5303,7.23,global wood
-C5764,13.88,global wood
-C5780,8.0,global wood
-C5781,8.0,global wood
-C5783,8.0,global wood
-C6268,9.35,global wood
-C6278,9.35,global wood
-C7103,8.24,global wood
-C7104,8.24,global wood
-C8865,7.54,global wood
-D189,12.17,global wood
-D190,12.17,global wood
-D351G,12.41,global wood
-D918S,9.07,global wood
-D1330,10.0,global wood
-D2438,10.12,global wood
-D6600,8.98,global wood
-D6622,8.98,global wood
-D6633,8.98,global wood
-D7038,7.01,global wood
-D7182,9.35,global wood
-D7183,9.35,global wood
-D7184,9.35,global wood
-D8562,6.83,global wood
-D8572,6.83,global wood
-G03,5.13,global wood
-G06,5.13,global wood
-G08,5.13,global wood
-G11,5.13,global wood
-G13,5.13,global wood
-G15,5.13,global wood
-G17,5.13,global wood
-G19,5.13,global wood
-G20,5.13,global wood
-G22,5.13,global wood
-G28,5.13,global wood
-G146,5.02,global wood
-G152,5.02,global wood
-G153,5.02,global wood
-GA771,1.81,global wood
-GA782,1.49,global wood
-GA783,1.49,global wood
-GA792,1.81,global wood
-GA793,1.81,global wood
-GA4771,1.89,global wood
-GA4792,1.89,global wood
-GA4793,1.89,global wood
-A106,3.81,global wood
+A107,1.96,global wood
+A129,1.19,global wood
+A139,1.83,global wood
+A152,2.17,global wood
+A291,2.82,global wood
+A292,2.82,global wood
+A408,1.54,global wood
+A731,4.69,global wood
+A801,1.5,global wood
+A901,1.5,global wood
+A1000,9.69,global wood
+A1001,9.69,global wood
+A1002,9.69,global wood
+A1004,9.69,global wood
+A1005,9.69,global wood
+A1006,9.69,global wood
+A 1015,9.69,global wood
+A1027,4.62,global wood
+A1028,4.62,global wood
+A1030,4.62,global wood
+A1031,4.62,global wood
+A1041,8.0,global wood
+A1042,8.0,global wood
+A1044,8.0,global wood
+A1057,8.0,global wood
+A1058,8.0,global wood
+A1059,8.0,global wood
+A1062,8.0,global wood
+A1063,8.0,global wood
+A1090,9.69,global wood
+A1091,9.69,global wood
+A1092,9.69,global wood
+A1093,9.69,global wood
+A1094,9.69,global wood
+A1095,9.69,global wood
+A1140,9.69,global wood
+A1166,6.06,global wood
+A1167,6.06,global wood
+A1168,6.06,global wood
+A1206,6.06,global wood
+A1208,9.69,global wood
+A1221,8.05,global wood
+A1267,9.69,global wood
+A1270,9.69,global wood
+A1273,9.69,global wood
+A1274,9.69,global wood
+A1278,5.95,global wood
+A1279,5.95,global wood
+A1280,5.95,global wood
+A1281,5.95,global wood
+A1340,6.06,global wood
+A1342,6.06,global wood
+A1343,6.06,global wood
+A1390,6.06,global wood
+A1391,6.06,global wood
+A1706,1.75,global wood
+A1707,1.75,global wood
+A1708,1.75,global wood
+A1709,1.75,global wood
+A1710,1.75,global wood
+A1711,1.75,global wood
+A2193,3.15,global wood
+A2194,3.15,global wood
+A2195,3.15,global wood
+A2196,3.15,global wood
+A2400,1.82,global wood
+A2410,1.82,global wood
+A2440,2.1,global wood
+A2581,2.9,global wood
+A2582,2.9,global wood
+A2583,2.9,global wood
+A2584,2.9,global wood
+A2610,2.53,global wood
+A2611,2.53,global wood
+A2652,2.53,global wood
+A2663,2.53,global wood
+A2671,2.53,global wood
+A2674,2.53,global wood
+A2681,2.53,global wood
+A2713,4.62,global wood
+A2913,3.45,global wood
+A3262,2.37,global wood
+A3272,2.37,global wood
+A3331,2.25,global wood
+A3337,2.25,global wood
+A3385,2.25,global wood
+A3402,2.22,global wood
+A3405,3.41,global wood
+A3433,1.78,global wood
+A3434,1.78,global wood
+A3435,1.78,global wood
+A3436,1.78,global wood
+A3940,3.6,global wood
+A4210,4.29,global wood
+A4215,4.29,global wood
+A4290,4.29,global wood
+A4291,3.96,global wood
+A4611,3.65,global wood
+A4612,3.65,global wood
+A4613,3.65,global wood
+A4864,2.81,global wood
+A4867,2.81,global wood
+A4874,2.81,global wood
+A4879,2.81,global wood
+A5680,3.5,global wood
+A5681,3.5,global wood
+A5683,3.5,global wood
+A5990,2.4,global wood
+A5991,2.4,global wood
+A5992,2.4,global wood
+A5993,2.45,global wood
+A8855,2.22,global wood
+B133,4.16,global wood
+B134,4.16,global wood
+B137,2.3,global wood
+B149,2.86,global wood
+B157,2.53,global wood
+B158,2.53,global wood
+B174,1.98,global wood
+B300,2.4,global wood
+B301,2.4,global wood
+B302,2.4,global wood
+B430,4.78,global wood
+B431,4.78,global wood
+B601,4.49,global wood
+B1101,4.16,global wood
+B1102,4.16,global wood
+B1103,4.16,global wood
+B1104,4.16,global wood
+B1180,2.07,global wood
+B1326,6.96,global wood
+B1328,6.96,global wood
+B1330,6.96,global wood
+B1331,6.96,global wood
+B1332,6.96,global wood
+B1334,6.96,global wood
+B1336,6.96,global wood
+B1335,6.96,global wood
+B1337,6.96,global wood
+B1750,2.22,global wood
+B1813,5.04,global wood
+B2101,3.78,global wood
+B2102,3.78,global wood
+B2460,2.7,global wood
+B2470,2.5,global wood
+B2485,2.82,global wood
+B2660,5.25,global wood
+B2950,4.75,global wood
+B3295,2.48,global wood
+B3296,2.48,global wood
+B3297,2.48,global wood
+B3298,2.48,global wood
+B3452,2.52,global wood
+B3802,2.8,global wood
+B3930,4.45,global wood
+B3952,4.85,global wood
+B4034,2.38,global wood
+B4054,2.38,global wood
+B4068,2.38,global wood
+B4210,5.68,global wood
+B4215,5.68,global wood
+B4284,4.14,global wood
+B4285,4.14,global wood
+B4286,4.14,global wood
+B4290,5.02,global wood
+B4291,5.02,global wood
+B5221,2.15,global wood
+B5224,2.15,global wood
+B6222,3.71,global wood
+B6223,3.71,global wood
+B6224,3.71,global wood
+B6225,3.71,global wood
+B6650,4.88,global wood
+B6652,4.88,global wood
+B6653,4.88,global wood
+B8235,2.52,global wood
+B8240,2.78,global wood
+C119,3.99,global wood
+C191,5.68,global wood
+C192,4.73,global wood
+C196,3.5,global wood
+C501,5.78,global wood
+C1360,4.16,global wood
+C403G,4.24,global wood
+C2432,3.91,global wood
+C3692,3.41,global wood
+C3804,5.08,global wood
+C4701,5.95,global wood
+C5302,3.92,global wood
+C5303,3.92,global wood
+C5764,7.44,global wood
+C5780,4.49,global wood
+C5781,4.49,global wood
+C5783,4.49,global wood
+C6268,6.22,global wood
+C6278,6.22,global wood
+C7103,4.57,global wood
+C7104,4.57,global wood
+C8865,4.18,global wood
+D189,6.66,global wood
+D190,6.66,global wood
+D351G,7.65,global wood
+D918S,5.55,global wood
+D1330,5.86,global wood
+D2438,6.57,global wood
+D6600,5.84,global wood
+D6622,5.84,global wood
+D6633,5.84,global wood
+D7038,3.72,global wood
+D7182,5.44,global wood
+D7183,5.44,global wood
+D7184,5.44,global wood
+D8562,4.18,global wood
+D8572,4.18,global wood
+G03,3.3,global wood
+G06,3.3,global wood
+G08,3.3,global wood
+G11,3.3,global wood
+G13,3.3,global wood
+G15,3.3,global wood
+G17,3.3,global wood
+G19,3.3,global wood
+G20,3.3,global wood
+G22,3.3,global wood
+G28,3.3,global wood
+G146,3.35,global wood
+G152,3.35,global wood
+G153,3.35,global wood
+GA771,0.84,global wood
+GA782,0.67,global wood
+GA783,0.67,global wood
+GA792,0.84,global wood
+GA793,0.84,global wood
+GA4771,0.89,global wood
+GA4792,0.89,global wood
+GA4793,0.89,global wood
+GA7006 1 INCH WHITE,2.84,global wood
+GA7008 I INCH DARK GREEN,2.84,global wood
+GA9406 1 INCH WHITE,2.44,global wood
+GA9408 1 INCH GREEN,2.44,global wood
+GA9411 1 INCH MAHOGANY,2.44,global wood
+GA9417 1 INCH PURPLE,2.44,global wood
+GA9420 1 INCH TEAL BLUE,2.44,global wood
+GB7108 15 INCH DARK GREEN,4.56,global wood
+GB7145 15 INCH GOLDEN SPICE,4.56,global wood
+GB7711 1 1/2 INCH MAHOGANY,3.32,global wood
+GB7720 1 1/2 INCH DARK BLUE,3.32,global wood
+GB7756 1 1/2 INCH WHITE,3.32,global wood
+GB8335 15 INCH DARK OAK,6.58,global wood
+GB9106 15 INCH NATURAL BURROW,5.75,global wood
+GB9113 1 1/2 INCH WINE BURROW,5.75,global wood
+GB9145 1 1/2 INCH CHARCOAL BURROW,5.75,global wood
+GB9153 1 1/2 INCH BROWN BURROW,5.75,global wood
+GC8782 2 INCH WALNUT,2.06,global wood
+SLIP03 GOLD SPACER,1.27,global wood
+LL202 OATMEAL LINEN LINER,1.36,global wood
+04FG96 GOLD  FILLET,1.23,global wood
+A106,1.96,global wood
 004A2,1.31,picture_woods
 004ACG,2.4,picture_woods
 004ACL,2.17,picture_woods
@@ -6141,7 +7538,6 @@ CAP1-MFB,5.50,frametastic
 CAP1-MFEB,5.50,frametastic
 CAP1-MFND,5.50,frametastic
 CAP1-MFP,5.50,frametastic
-CAP1-S,5.50,frametastic
 CAP1-SS,5.50,frametastic
 CAP1-MT,8.00,frametastic
 CAP1-MTB,8.00,frametastic
@@ -6339,10 +7735,8 @@ NAT400-MFND,10.25,frametastic
 NAT400-MFP,10.25,frametastic
 NAT400-MFS,10.25,frametastic
 NAT400-MFSS,10.25,frametastic
-NAT400-M,12.50,frametastic
 NAT400--MT,12.50,frametastic
 NAT400-MTB,12.50,frametastic
-NAT400-S,12.50,frametastic
 NAT400-NL,22.00,frametastic
 NAT400-PD,10.25,frametastic
 NAT400-UB,13.00,frametastic
@@ -19347,31 +20741,8 @@ X2631,9.19,larson juhl
 2896,2.70,ampf
 2897,2.70,ampf
 2898,2.70,ampf
-3460,0.97,ampf
-3461,0.97,ampf
-3463,1.22,ampf
-3464,1.22,ampf
-3469,2.00,ampf
-3470,2.00,ampf
 Penland 7335 - 73383473,1.07,ampf
-3474,1.07,ampf
-3476,1.07,ampf
-3477,1.15,ampf
-3478,1.15,ampf
-3480,1.75,ampf
-3482,1.75,ampf
-3489,2.37,ampf
-3490,1.40,ampf
-3491,0.76,ampf
-3492,1.35,ampf
-3493,1.12,ampf
 Soft Impressions 7281 - 72883494,1.59,ampf
-3495,1.59,ampf
-3497,1.59,ampf
-3532,0.88,ampf
-3533,0.86,ampf
-3537,0.52,ampf
-3538,0.87,ampf
 3657,0.84,ampf
 1708,4.32,ampf
 1709,3.63,ampf
@@ -19464,15 +20835,6 @@ Soft Impressions 7281 - 72883494,1.59,ampf
 2880,2.25,ampf
 2881,2.25,ampf
 2882,2.25,ampf
-2890,5.82,ampf
-2891,5.82,ampf
-2892,5.82,ampf
-2893,4.25,ampf
-2894,4.25,ampf
-2895,4.25,ampf
-2896,2.70,ampf
-2897,2.70,ampf
-2898,2.70,ampf
 3055,7.38,ampf
 3106,4.91,ampf
 3107,5.66,ampf
@@ -19591,7 +20953,6 @@ Soft Impressions 7281 - 72883494,1.59,ampf
 3640,5.08,ampf
 3641,5.08,ampf
 3642,5.08,ampf
-3657,0.84,ampf
 3658,1.11,ampf
 3700,3.24,ampf
 3701,3.24,ampf
@@ -24216,7 +25577,6 @@ F9047,2.20,valley
 1753,6.44,engelsen
 1754,7.47,engelsen
 1755,8.47,engelsen
-1754,11.14,engelsen
 1851,6.01,engelsen
 1852,7.61,engelsen
 1853,7.61,engelsen

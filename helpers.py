@@ -2,15 +2,15 @@ import numpy as np
 import regex as re
 
 def clean_weird_values(input_string):
-    bad_values = ['length price', '$/ea.', 'Bundle', 'Boinput_string']
+    bad_values = ['length price', '$/ea.', 'Bundle', 'Box']
     if input_string in bad_values: 
         return 'delete'
     else: 
         return str(input_string)
 
-def clean_weird_names(input_string):
-
-    return 
+def remove_0(input_string):
+    # for bella frames. they all came with an extra 0 on the end
+    return input_string[:-1]
 
 def special_match(input_string):
     search = re.compile('[^0-9.]').search
@@ -45,9 +45,15 @@ def cleanFramePipeline(input_string):
     input_string = input_string.replace('......', '')
     input_string = input_string.replace('::J', '')
     input_string = input_string.replace('"<""', '')
-    input_string = input_string.replace('input_string ', '')
     input_string = input_string.replace('~ ', '')
     input_string = input_string.replace('"<""', '')
     input_string = input_string.replace('"<""', '')
+    input_string = input_string.replace('-,', '')
+    input_string = input_string.replace('Q)', '')
+    input_string = input_string.replace('<', '')
+    input_string = input_string.replace('ti)', '')
+    input_string = input_string.replace('w ', '')
+    input_string = input_string.replace('en ', '')
+    input_string = input_string.replace('ti)', '')
     input_string = input_string.strip()
     return input_string

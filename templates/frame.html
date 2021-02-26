@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Frame Tool</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body style="background: #000;">
+ <div class="login">
+	<h1>Frame Price Tool</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('frame')}}"method="post">
+
+      <label for="supplier">Supplier:</label>
+      <select id="supplier" name="supplier">
+        {% for i in supplier_list %}
+        <option value="{{ i }}" SELECTED>{{ i }}</option>
+        {% endfor %}
+      </select>
+
+        <input type="text" name="inches" placeholder="United Inches" required="required" />
+        <input type="text" name="frame" placeholder="Frame Code" required="required" />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Get Price</button>
+    </form>
+
+   <br>
+   <br>
+    {{ frame_price }} 
+
+ </div>
+</body>
+</html>

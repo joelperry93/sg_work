@@ -1,27 +1,21 @@
 {
         "roma": {
-            "file_path": "ROMA PRICELIST.pdf",
-            "first_page": 1,
-            "last_page": 46,
-            "frame": "Moulding",
-            "price": "Length Price",
-            "header": 0,
-            "method": "pdf",
-            "weight": 0.6,
-            "constant": 1.85
-
+                "file_path": "Roma 2021 Price List Excel.xlsx",
+                "header": 0,
+                "frame": 0,
+                "price": 7,
+                "method": "excel",
+                "weight": 0.6,
+                "constant": 1.95
              },
 
         "universal": {
-            "file_path": "2019 Universal Price List.pdf",
-            "first_page": 5,
-            "last_page": 33,
+            "file_path": "Universal_2019_Price List _ L.xlsx",
             "frame": "Item",
             "price": "List",
-            "header": 1,
             "method": "universal",
             "weight": 0.42,
-            "constant": 1.85
+            "constant": 1.95
             },
 
         "omega": {"file_path": "2019-20_ Omega Moulding_Price_List_USA.pdf",
@@ -34,7 +28,7 @@
             "header": 0,
             "method": "omega",
             "weight": 0.8,
-            "constant": 1.85
+            "constant": 1.95
             },
 
         "bella": {
@@ -44,7 +38,7 @@
             "frame": "Item #",
             "price": "Length",
             "header": 0,
-            "method": "pdf",
+            "method": "bella",
             "weight": 0.83,
             "constant": 2.3
              },
@@ -64,9 +58,9 @@
         "global wood": {
                     "file_path": "Global/Wood Pricing Global Art - 9-12-2019.pdf",
                     "first_page": 1,
-                    "last_page": 6,
+                    "last_page": 7,
                     "frame": 0,
-                    "price": 4,
+                    "price": 2,
                     "header": 0,
                     "method": "global",
                     "weight": 1,
@@ -100,7 +94,7 @@
                 "price": 1,
                 "method": "excel",
                 "weight": 0.6,
-                "constant": 1.85
+                "constant": 1.95
                 },
                        
         "presto": {
@@ -138,7 +132,9 @@
                 "header": 2,
                 "frame": 0,
                 "price": 6,
-                "method": "excel"
+                "method": "excel",
+                "weight": 0.83,
+                "constant": 1.95                
                 },
 
         "nielsen": {
@@ -158,7 +154,7 @@
                 "price": 6,
                 "method": "excel",
                 "weight": 0.93,
-                "constant": 1.85
+                "constant": 1.95
                 },
 
         "larson juhl": {
@@ -168,7 +164,7 @@
                 "price": 5,
                 "method": "excel",
                 "weight": 0.67,
-                "constant": 1.85
+                "constant": 1.95
                 },
 
         "ampf": {
@@ -228,7 +224,7 @@
                 "header": 1,
                 "method": "foster",
                 "weight": 0.6,
-                "constant": 1.85
+                "constant": 1.95
                 },
 
         "gryphon": {
@@ -238,7 +234,7 @@
                 "price": 1,
                 "method": "excel",
                 "weight": 0.6,
-                "constant": 1.85
+                "constant": 1.95
                 },
 
         "designer wood": {
@@ -268,7 +264,7 @@
                 "price": 5,
                 "method": "excel",
                 "weight": 0.67,
-                "constant": 1.85   
+                "constant": 1.95   
                 },
 
         "engelsen": {

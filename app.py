@@ -13,7 +13,11 @@ supplier_list = list(supplier_dict.keys())
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return '''
+    <h1> Sherman Gallery Tools </h1>
+    <li> <a href = "/frame"> Frame Price</a> </li>
+    <li> <a href = "/quote"> Full Quote </a> </li>
+    '''
 
 # http://0.0.0.0:5000/frame
 # @app.route('/frame', methods=['POST'])
@@ -28,8 +32,6 @@ def frame():
         constant = supplier_dict[supplier]['constant']
 
         inches = float(request.form['inches'])
-        inches = max(inches, 40)
-
         frame = str(request.form['frame']).upper()
 
         try:
@@ -41,12 +43,19 @@ def frame():
         except:
             frame_quote = " Didn't recognise frame code"
 
-        return render_template('home.html',
+        return render_template('frame.html',
                                  frame_price='{}'.format(frame_quote),
                                  supplier_list=supplier_list)
     else:
-        return render_template('home.html',
+        return render_template('frame.html',
                                 supplier_list=supplier_list)
+
+
+@app.route('/quote')
+def quote():
+    return '''
+    <h1> Working On It </h1>
+    '''
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

@@ -28,43 +28,6 @@ def createMaster(supplier_list):
     df = pd.concat(df)
     return df
 
-# df = createMaster(supplier_list)
-# df.to_csv('master_list.csv', index=False)
-
-
-# def cleansingPipeline(df):
-#     df = df.dropna()
-#     df['price'] = df['price'].apply(lambda x: str(x))
-#     df['price'] = df['price'].apply(lambda x: clean_weird_values(x))
-#     # df = df.dropna()
-#     df['price'] = df['price'].apply(lambda x: x.replace('$', ''))
-#     df['price'] = df['price'].apply(lambda x: x.replace('. ', ''))
-#     df['price'] = df['price'].apply(lambda x: x.replace(' ', ''))
-#     df['price'] = df['price'].apply(lambda x: x.replace(',', ''))
-#     df['price'] = df['price'].apply(lambda x: special_match(x))
-#     df = df.dropna()
-#     # df['price'] = df['price'].apply(lambda x: num(x))
-
-#     df['frame'] = df['frame'].apply(lambda x: str(x))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('*', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('...', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('..', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('.', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('......', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('::J', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('"<""', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('X ', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('~ ', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('"<""', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.replace('"<""', ''))
-#     df['frame'] = df['frame'].apply(lambda x: x.strip())
-#     return df
-
-# def finalDataset(supplier_list):
-#     df = createMaster(supplier_list)
-#     df = cleansingPipeline(df)
-#     # return df.to_excel('master_list.xlsx', index=False)
-#     return df.to_csv('master_list.csv', index=False)
 
 def finalDataset(supplier_list):
     df = createMaster(supplier_list)

@@ -152,7 +152,9 @@ def universalSpecific(supplier):
     filepath = root + str(key['file_path'])
     arquati = pd.read_excel(filepath, sheet_name = "Arquati")[['Item', 'List']]
     universal = pd.read_excel(filepath, sheet_name = "Universal")[['Item', 'List']]
-    df = pd.concat([arquati, universal])
+    arquati_signature = pd.read_excel(filepath, sheet_name = "Arquati Signature")[['Item', 'List']]
+    aluminum = pd.read_excel(filepath, sheet_name = "Aluminum")[['Item', 'List']]
+    df = pd.concat([arquati, universal, arquati_signature, aluminum])
     df.columns = ['frame', 'price']
     df['supplier'] = supplier
     return df

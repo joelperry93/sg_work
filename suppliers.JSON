@@ -10,7 +10,7 @@
              },
 
         "universal": {
-            "file_path": "Universal_2019_Price List _ L.xlsx",
+            "file_path": "universal_customerpricelist.xlsx",
             "frame": "Item",
             "price": "List",
             "method": "universal",
@@ -40,7 +40,7 @@
             "header": 0,
             "method": "bella",
             "weight": 0.83,
-            "constant": 2.3
+            "constant": 2.35
              },
     
         "global metal": {
@@ -71,10 +71,10 @@
                 "file_path": "2020 Picture Woods Price List_Framing Software Vendors-Rev.xlsx",
                 "header": 0,
                 "frame": 0,
-                "price": 2,
+                "price": 3,
                 "method": "excel",
                 "weight": 0.83,
-                "constant": 2.3
+                "constant": 2.35
                 },
                  
         "frametastic": {
@@ -108,13 +108,13 @@
                 },
                        
         "fotiou": {
-                "file_path": "FotiouUSD-PricingUpdate-Jan20.xlsx",
+                "file_path": "FotiouUSD-PricingUpdate-February21.xlsx",
                 "header": 0,
                 "frame": 0,
                "price": 5,
                "method": "excel",
                "weight": 0.67,
-               "constant": 2
+               "constant": 2.05
                 },
     
         "decor": {
@@ -144,7 +144,7 @@
                 "price": 4,
                 "method": "excel",
                 "weight": 0.8,
-                "constant": 1.5
+                "constant": 1.55
                 },
 
         "southwest": {
@@ -158,10 +158,10 @@
                 },
 
         "larson juhl": {
-                "file_path": "LJ Pricing CA - Excel.xls",
+                "file_path": "Larson Juhl 2021.xls",
                 "header": 0,
                 "frame": 0,
-                "price": 5,
+                "price": 6,
                 "method": "excel",
                 "weight": 0.67,
                 "constant": 1.95
@@ -178,7 +178,7 @@
                 "header": 0,
                 "method": "ampf",
                 "weight": 0.67,
-                "constant": 2.3
+                "constant": 2.35
                 },            
 
         "direct": {
@@ -188,7 +188,7 @@
                 "price": 2,
                 "method": "excel",
                 "weight": 0.6,
-                "constant": 2
+                "constant": 2.05
                 },
 
         "fpf": {
@@ -208,7 +208,7 @@
                 "price": 1,
                 "method": "excel",
                 "weight": 0.83,
-                "constant": 2.3
+                "constant": 2.35
                 },
 
         "foster": {
@@ -244,7 +244,7 @@
                 "price": 1,
                 "method": "excel",
                 "weight": 0.83,
-                "constant": 2.3
+                "constant": 2.35
                 },
 
         "designer metal": {
@@ -254,7 +254,7 @@
                 "price": 1,
                 "method": "excel",
                 "weight": 0.6,
-                "constant": 1.4
+                "constant": 1.5
                 },
 
         "valley": {
@@ -274,7 +274,7 @@
                 "price": 1,
                 "method": "excel",
                 "weight": 0.83,
-                "constant": 2.3
+                "constant": 2.35
                 }
     
 

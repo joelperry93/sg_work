@@ -13,11 +13,7 @@ supplier_list = list(supplier_dict.keys())
 
 @app.route('/')
 def home():
-    return '''
-    <h1> Sherman Gallery Tools </h1>
-    <li> <a href = "/frame"> Frame Price</a> </li>
-    <li> <a href = "/quote"> Full Quote </a> </li>
-    '''
+    return render_template('home.html')
 
 # http://0.0.0.0:5000/frame
 # @app.route('/frame', methods=['POST'])

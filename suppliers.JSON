@@ -32,7 +32,7 @@
             },
 
         "bella": {
-            "file_path": "2020 Bella Moulding Fax-Email Pricelist.pdf",
+            "file_path": "2021 Bella Moulding Fax - Email Pricelist.pdf",
             "first_page": 1,
             "last_page": 33,
             "frame": "Item #",
@@ -197,8 +197,8 @@
                 "frame": 0,
                 "price": 1,
                 "method": "excel",
-                "weight": 1,
-                "constant": 0
+                "weight": 0.83,
+                "constant": 2.35
                 },
 
         "rustic": {
@@ -238,7 +238,7 @@
                 },
 
         "designer wood": {
-                "file_path": "Designer/designer wood.xlsx",
+                "file_path": "Designer/designer_wood_2021.xlsx",
                 "header": 0,
                 "frame": 0,
                 "price": 1,
@@ -248,7 +248,7 @@
                 },
 
         "designer metal": {
-                "file_path": "Designer/designer metal.xlsx",
+                "file_path": "Designer/designer_metal_2021.xlsx",
                 "header": 0,
                 "frame": 0,
                 "price": 1,

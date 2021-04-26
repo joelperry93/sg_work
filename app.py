@@ -43,7 +43,9 @@ def home():
 def frame():
 
     if request.method == 'POST':
-    
+
+        # Request Data. 
+        # Information in forms refreshes after every submit.
         supplier = str(request.form['supplier'])
         weight = supplier_dict[supplier]['weight']
         constant = supplier_dict[supplier]['constant']

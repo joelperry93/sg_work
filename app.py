@@ -4,22 +4,43 @@ from flask import Flask, request, jsonify, render_template
 import numpy as np
 
 app = Flask(__name__)
-prices = pd.read_csv('master_list.csv')
 
+def list_maker(df, category):
+    ''' 
+    just for the sherman gallery spreadsheets
+    '''
+    return list(df[df.CATEGORY == category].SERVICE.unique())
+
+#importing price lists
+prices = pd.read_csv('master_list.csv')
+services_1 = pd.read_excel('service_prices.xlsx', sheet_name='Sheet1')
+services_2 = pd.read_excel('service_prices.xlsx', sheet_name='Sheet2')
+
+#lists to generate dropdown menus
+supplier_list = list(prices.supplier.unique())
+supplier_list.sort()
+
+service_list = list_maker(services_1, 'SERVICE')
+mount_list = list_maker(services_1, 'MOUNT')
+back_list = list_maker(services_1, 'BACK')
+space_list = list_maker(services_1, 'SPACE')
+glass_list = list_maker(services_1, 'GLASS')
+paper_mat_list = list_maker(services_2, 'PAPER MATS')
+fabric_mat_list = list_maker(services_2, 'FAB MATS / 1-PIECE LINERS')
+fabric_liner_list = list_maker(services_2, 'FAB LINERS / SPACERS')
+customer_material_list = list_maker(services_2, 'CUSTOMERS MATERIALS')
+misc_list = list_maker(services_2, 'MISCELLANEOUS')
+
+#for supplier discounts and extra costs
 with open('suppliers.JSON', 'r') as f:
     supplier_dict = json.load(f)
-
-supplier_list = list(supplier_dict.keys())
 
 @app.route('/')
 def home():
     return render_template('home.html')
 
-# http://0.0.0.0:5000/frame
-# @app.route('/frame', methods=['POST'])
 @app.route('/frame', methods=['POST', 'GET'])
 def frame():
-    # Rule of minimum frame size = 40
 
     if request.method == 'POST':
     
@@ -47,11 +68,38 @@ def frame():
                                 supplier_list=supplier_list)
 
 
-@app.route('/quote')
-def quote():
-    return '''
-    <h1> Working On It </h1>
-    '''
+
+@app.route('/test', methods=['POST', 'GET'])
+def test():
+    if request.method == 'POST':
+
+        return render_template('test.html', 
+                                supplier_list=supplier_list,
+                                service_list=service_list,
+                                mount_list=mount_list,
+                                back_list=back_list,
+                                space_list=space_list,
+                                glass_list=glass_list,
+                                paper_mat_list=paper_mat_list,
+                                fabric_mat_list=fabric_mat_list,
+                                fabric_liner_list=fabric_liner_list,
+                                customer_material_list=customer_material_list,
+                                misc_list=misc_list)
+    else:
+        return render_template('test.html', 
+                                supplier_list=supplier_list,
+                                service_list=service_list,
+                                mount_list=mount_list,
+                                back_list=back_list,
+                                space_list=space_list,
+                                glass_list=glass_list,
+                                paper_mat_list=paper_mat_list,
+                                fabric_mat_list=fabric_mat_list,
+                                fabric_liner_list=fabric_liner_list,
+                                customer_material_list=customer_material_list,
+                                misc_list=misc_list)
+
+    
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

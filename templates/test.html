@@ -1,0 +1,300 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  <title>Quote Tool</title>
+  <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'> 
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/test.css') }}">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>Sherman Gallery</h1>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="container">
+      <h2>Full Quote Tool</h2>
+      <p>Enter details. Get quote.</p>
+    </div>
+  </div>
+
+  <form action="{{ url_for('test')}}"method="post"></form>
+
+  <div class="container">
+    <div class="main">
+      <div class="spacer">
+        <div class="cards">
+          <div class="col">
+            <div class="flex-container">
+                <h2>Dimensions</h2>
+                <input type="text" name="length" placeholder="Length" required="required" /><br>
+                <input type="text" name="width" placeholder="Width" required="required" />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flex-container">
+                <h2>Frame</h2>
+                <select id="supplier" name="supplier">
+                    {% for i in supplier_list %}
+                    <option value="{{ i }}" SELECTED>{{ i }}</option>
+                    {% endfor %}
+                  </select><br>
+                  <input type="text" name="frame" placeholder="Frame Code" required="required" />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Services</h2>
+                <select id="service_1" name="service_1">
+                  {% for i in service_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="service_2" name="service_2">
+                  {% for i in service_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="service_3" name="service_3">
+                  {% for i in service_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="main">
+      <div class="spacer">
+        <div class="cards">
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Mounting</h2>
+                <select id="mounting_1" name="mounting_1">
+                  {% for i in mount_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="mounting_2" name="mounting_2">
+                  {% for i in mount_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="mounting_3" name="mounting_3">
+                  {% for i in mount_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Backing</h2>
+                <select id="back_1" name="back_1">
+                  {% for i in back_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="back_2" name="back_2">
+                  {% for i in back_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="back_3" name="back_3">
+                  {% for i in back_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Spacing</h2>
+                <select id="space_1" name="space_1">
+                  {% for i in space_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="space_2" name="space_2">
+                  {% for i in space_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="space_3" name="space_3">
+                  {% for i in space_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Glass</h2>
+                <select id="glass_1" name="spaglass_1ce_1">
+                  {% for i in glass_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="glass_2" name="glass_2">
+                  {% for i in glass_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="glass_3" name="glass_3">
+                  {% for i in glass_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="main">
+      <div class="spacer">
+        <div class="cards">
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Paper Mat</h2>
+                <select id="paper_mat_1" name="paper_mat_1">
+                  {% for i in paper_mat_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="paper_mat_2" name="paper_mat_2">
+                  {% for i in paper_mat_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="paper_mat_3" name="paper_mat_3">
+                  {% for i in paper_mat_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Fabric Mats</h2>
+                <select id="fabric_mat_1" name="fabric_mat_1">
+                  {% for i in fabric_mat_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="fabric_mat_2" name="fabric_mat_2">
+                  {% for i in fabric_mat_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="fabric_mat_3" name="fabric_mat_3">
+                  {% for i in fabric_mat_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Fabric Liners</h2>
+                <select id="fabric_liner_1" name="fabric_liner_1">
+                  {% for i in fabric_liner_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="fabric_liner_2" name="fabric_liner_2">
+                  {% for i in fabric_liner_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="fabric_liner_3" name="fabric_liner_3">
+                  {% for i in fabric_liner_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="main">
+      <div class="spacer">
+        <div class="cards">
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Customer Materials</h2>
+                <select id="customer_materials_1" name="customer_materials_1">
+                  {% for i in customer_material_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="customer_materials_2" name="customer_materials_2">
+                  {% for i in customer_material_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="customer_materials_3" name="customer_materials_3">
+                  {% for i in customer_material_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="flex-container">
+              <h2>Miscellaneous</h2>
+                <select id="miscellaneous_1" name="miscellaneous_1">
+                  {% for i in misc_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="miscellaneous_2" name="miscellaneous_2">
+                  {% for i in misc_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select><br>
+                <select id="miscellaneous_3" name="miscellaneous_3">
+                  {% for i in misc_list %}
+                  <option value="{{ i }}" SELECTED>{{ i }}</option>
+                  {% endfor %}
+                </select>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h3>Made by Joey</h3>
+    <p>for Sherman Gallery</p>
+
+  </div>
+</body>
+</html><!doctype html>

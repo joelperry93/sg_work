@@ -23,8 +23,7 @@ def createMaster(supplier_list):
             df.append(ampfSpecific(i))
         elif supplier_dict[i]['method'] == 'foster':
             df.append(fosterSpecific(i))
-        elif supplier_dict[i]['method'] == 'bella':
-            df.append(bellaSpecific(i))
+
     df = pd.concat(df)
     return df
 
@@ -42,6 +41,10 @@ def finalDataset(supplier_list):
 
 finalDataset(supplier_list)
 
-# df = pd.read_csv('master_list.csv')
+test_df = pd.read_csv('master_list.csv')
+assert(test_df.supplier.nunique() == len(supplier_list))
+
 # df['price'] = df['price'].apply(lambda x: num(x))
+
+
 

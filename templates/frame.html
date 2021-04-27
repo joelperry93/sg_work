@@ -24,14 +24,14 @@
             <select id="supplier" name="supplier">
                 {% for supplier in supplier_list %}
                     <option value="{{ supplier }}"
-                            {% if supplier == selected_supplier %} selected {% endif %}}
+                            {% if supplier == request.form['supplier'] %} selected {% endif %}}
                     >{{ supplier }}</option>
                 {% endfor %}
             </select>
 
             <br>
 
-            <input type="text" name="inches" placeholder="United Inches" required="required" />
+            <input type="text" name="inches" placeholder="United Inches" required="required" value="{{ request.form['inches'] }}"/>
             <input type="text" name="frame" placeholder="Frame Code" required="required" />
             <button type="submit" class="btn btn-primary btn-block btn-large">Get Price</button>
         </form>

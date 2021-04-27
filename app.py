@@ -64,8 +64,7 @@ def frame():
 
         return render_template('frame.html',
                                  frame_price='{}'.format(frame_quote),
-                                 supplier_list=supplier_list,
-                                 selected_supplier=supplier)
+                                 supplier_list=supplier_list)
     else:
         return render_template('frame.html',
                                 supplier_list=supplier_list)

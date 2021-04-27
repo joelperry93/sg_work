@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html>
+<head>
     <meta charset="UTF-8" name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
     <title>Frame Tool</title>
     <!-- <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
@@ -8,37 +8,38 @@
     <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-  </head>
-
+</head>
 <body>
+    <div class="header">
+        <h1></h1>
+    </div>
 
-  <div class="header">
-    <h1></h1>
-  </div>
+    <div class="login">
+        <h1>Frame Price Tool</h1>
 
- <div class="login">
-	<h1>Frame Price Tool</h1>
+        <!-- Main Input For Receiving Query -->
+        <form action="{{ url_for('frame')}}" method="post">
 
-     <!-- Main Input For Receiving Query -->
-    <form action="{{ url_for('frame')}}"method="post">
+            <label for="supplier">Supplier:</label>
+            <select id="supplier" name="supplier">
+                {% for supplier in supplier_list %}
+                    <option value="{{ supplier }}"
+                            {% if supplier == selected_supplier %} selected {% endif %}}
+                    >{{ supplier }}</option>
+                {% endfor %}
+            </select>
 
-      <label for="supplier">Supplier:</label>
-      <select id="supplier" name="supplier">
-        {% for i in supplier_list %}
-        <option value="{{ i }}" SELECTED>{{ i }}</option>
-        {% endfor %}
-      </select>
-      <br>
+            <br>
 
-        <input type="text" name="inches" placeholder="United Inches" required="required" />
-        <input type="text" name="frame" placeholder="Frame Code" required="required" />
-        <button type="submit" class="btn btn-primary btn-block btn-large">Get Price</button>
-    </form>
+            <input type="text" name="inches" placeholder="United Inches" required="required" />
+            <input type="text" name="frame" placeholder="Frame Code" required="required" />
+            <button type="submit" class="btn btn-primary btn-block btn-large">Get Price</button>
+        </form>
 
-   <br>
-   <br>
-    {{ frame_price }} 
+        <br>
+        <br>
+        {{ frame_price }}
 
- </div>
+    </div>
 </body>
 </html>

@@ -13,8 +13,8 @@ def list_maker(df, category):
 
 #importing price lists
 prices = pd.read_csv('master_list.csv')
-services_1 = pd.read_excel('service_prices.xlsx', sheet_name='Sheet1')
-services_2 = pd.read_excel('service_prices.xlsx', sheet_name='Sheet2')
+services_1 = pd.read_excel('service_prices.xlsx', sheet_name='Sheet1', engine='openpyxl')
+services_2 = pd.read_excel('service_prices.xlsx', sheet_name='Sheet2', engine='openpyxl')
 
 #lists to generate dropdown menus
 supplier_list = list(prices.supplier.unique())
@@ -64,7 +64,8 @@ def frame():
 
         return render_template('frame.html',
                                  frame_price='{}'.format(frame_quote),
-                                 supplier_list=supplier_list)
+                                 supplier_list=supplier_list,
+                                 selected_supplier=supplier)
     else:
         return render_template('frame.html',
                                 supplier_list=supplier_list)
